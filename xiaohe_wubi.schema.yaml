@@ -1,0 +1,177 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: xiaohe_wubi
+  name: 小鶴五筆音形
+  version: "1.62" 
+  author:
+    - Rime schema by 梨子
+  dependencies:
+    - double_pinyin_flypy
+    - wubi86
+    - reverse_lookup_xiaohe_wubi
+  description:
+    小鶴雙拼音碼掛載五筆形碼，快速輸入。
+    支持長句模式、全拼字庫。
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: simplification
+    reset: 1
+    states: [ 漢字, 汉字 ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - table_translator@custom_phrase           #custom_phrase段编码
+    - table_translator@xiaohe_wubi_code        #表示调用小鹤五笔简码
+    - table_translator@xnhe_wubi_codeExtend    #小鹤五笔扩展编码
+    - table_translator@xnhe_wubi_codeU         #罕见字增广编码
+    - reverse_lookup_translator                #五笔86反查翻译器
+    - script_translator@luna_pinyin            #luna_pinyin字典的小鹤双拼翻译器
+    - script_translator                        #小鹤字词主翻译器
+  filters:
+    - simplifier
+    - uniquifier
+    - cjk_minifier
+    - reverse_lookup_filter@reverse_lookup_xiaohe_wubi             #反查提示滤镜如无需要可关闭
+
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " '"
+  algebra:
+#小鹤五笔快捷编码
+    - derive/^(..[[]..).(.;)$/$1$2/
+    - derive/^(..[[].).(.).(;)$/$1$2$3/
+    - derive/^(..[[]...).(;)$/$1$2/
+    - derive/^(..[[]..).+(;)$/$1/
+    - derive/^(..[[].).+(.;)$/$1$2/
+    - derive/^(..[[].).+(;)$/$1$2/
+    - derive/^(..[[]).+(;)$/$1$2/
+#去除引导码、分号分词
+    - xform/[[]//
+    - xform/;//
+    - derive/^uf$/fu/
+
+translator:                #小鹤字词翻译器
+  dictionary: xiaohe_wubi_char
+  user_dict: xiaohe_wubi
+  enable_charset_filter: true    #字符集过滤，低重形码用不着
+  initial_quality: 1
+  contextual_suggestions: true 
+
+luna_pinyin:
+  dictionary: luna_pinyin
+  prism: double_pinyin_flypy
+  initial_quality: 1.1
+
+reverse_lookup_xiaohe_wubi:      #小鹤五笔编码反查滤镜
+  dictionary: reverse_lookup_xiaohe_wubi
+  comment_format:
+    - xform/^(.....).$/$1/
+    - xform/^..(.+)$/~$1/
+
+reverse_lookup:                  #五笔86反查翻译器
+  dictionary: wubi86             #用于反查编码的另一种输入法词库名称
+  prefix: "o"                    #反查引导符，即按下这个键后再输入五笔输入法的编码
+  suffix: "'"
+  tips: 〔五筆〕
+  comment_format:
+    - xform/[[].+//
+    - xform/([bpmfdtnljqx])n/$1iao/
+    - xform/(\w)g/$1eng/
+    - xform/(\w)q/$1iu/
+    - xform/(\w)w/$1ei/
+    - xform/([dtnlgkhjqxyvuirzcs])r/$1uan/
+    - xform/(\w)t/$1ve/
+    - xform/(\w)y/$1un/
+    - xform/([dtnlgkhvuirzcs])o/$1uo/
+    - xform/(\w)p/$1ie/
+    - xform/([jqx])s/$1iong/
+    - xform/(\w)s/$1ong/
+    - xform/(\w)d/$1ai/
+    - xform/(\w)f/$1en/
+    - xform/(\w)h/$1ang/
+    - xform/(\w)j/$1an/
+    - xform/([gkhvuirzcs])k/$1uai/
+    - xform/(\w)k/$1ing/
+    - xform/([jqxnl])l/$1iang/
+    - xform/(\w)l/$1uang/
+    - xform/(\w)z/$1ou/
+    - xform/([gkhvuirzcs])x/$1ua/
+    - xform/(\w)x/$1ia/
+    - xform/(\w)c/$1ao/
+    - xform/([dtgkhvuirzcs])v/$1ui/
+    - xform/(\w)b/$1in/
+    - xform/(\w)m/$1ian/
+    - xform/([aoe])\1(\w)/$1$2/
+    - "xform/(^|[ '])v/$1zh/"
+    - "xform/(^|[ '])i/$1ch/"
+    - "xform/(^|[ '])u/$1sh/"
+    - xform/([jqxy])v/$1u/
+    - xform/([nl])v/$1ü/
+    - xform/^(.+)/[py]:$1/
+
+custom_phrase:                   #用户自定义custom_phrase编码
+  dictionary: ""
+  user_dict: custom_phrase
+  db_class: stabledb
+  enable_completion: false
+  enable_sentence: false
+  initial_quality: 10
+
+xiaohe_wubi_code:                #小鹤五笔简码码段
+  dictionary: ""
+  user_dict: xiaohe_wubi_code
+  db_class: stabledb
+  enable_completion: false
+  enable_sentence: false
+  initial_quality: 10
+
+xnhe_wubi_codeExtend:            #小鹤五笔扩展简码
+  dictionary: ""
+  user_dict: xnhe_wubi_codeExtend
+  db_class: stabledb
+  enable_completion: false
+  enable_sentence: false
+  initial_quality: 10
+
+xnhe_wubi_codeU:                 #大字集汉字
+  dictionary: ""
+  user_dict: xnhe_wubi_codeU
+  db_class: stabledb
+  enable_completion: true
+  enable_sentence: false
+  initial_quality: 1
+
+punctuator:
+  import_preset: default_symbols #設定符號表，這裏直接導入預設的
+
+key_binder:
+  import_preset: default         #键盘binder，這裏直接導入預設的
+
+recognizer:
+  patterns:
+    reverse_lookup: "^o[a-z]*$"              #使用o激活反查，如有其他需要可以自行更改
