@@ -3315,7 +3315,7 @@ use_preset_vocabulary: true
 接	jprg
 秸	jptf
 階	jpb
-揭	jprr
+揭	jprn
 喈	jpkx
 嗟	jpk
 街	jpt
@@ -3327,7 +3327,7 @@ use_preset_vocabulary: true
 劼	jpfkl
 杰	jps
 诘	jpyk
-拮	jprf
+拮	jprk
 洁	jpi
 结	jpx
 桀	jpqs
@@ -6569,7 +6569,7 @@ use_preset_vocabulary: true
 實	uip
 識	uiy
 史	uik
-矢	uitw
+矢	uitdu
 豕	uiey
 使	uiw
 始	uiv
@@ -6606,12 +6606,12 @@ use_preset_vocabulary: true
 視	uipq
 貰	uiau
 弑	uiqs
-释	uitt
+释	uito
 谥	uiyy
 媞	tiv
 勢	uirv
 軾	uil
-嗜	uikj
+嗜	uikf
 筮	uitw
 鈰	uiqy
 飾	uiq
@@ -6622,7 +6622,8 @@ use_preset_vocabulary: true
 噬	uikw
 諡	uiyy
 螫	uifo
-釋	uitt
+釋	uito
+笶	uitt
 匙	iij
 收	uzn
 手	uzrt
@@ -20408,7 +20409,6 @@ use_preset_vocabulary: true
 㹬	uiqtgq
 宩	uipou
 䂠	uidtdy
-笶	uittdu
 鉂	uiqkqy
 㔺	uifafj
 丗	uigkgd

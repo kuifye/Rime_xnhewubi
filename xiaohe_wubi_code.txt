@@ -9703,6 +9703,7 @@
 腹	fuet	8
 縛	fuxf	8
 苷	gjaf	8
+𢧀	gjjt	8
 尷	gjdl	8
 睾	gctf	8
 篙	gctm	8
@@ -10291,6 +10292,8 @@
 這	vwyp	8
 施	uiyy	8
 悗	mjnq	8
+香	xltj	8
+箱	xltf	8
 
 #五碼單字簡碼
 秕	bitxx	9
@@ -10355,8 +10358,10 @@
 鵒	yuwwk	9
 鮋	yzqgm	9
 侑	yzwde	9
+矢	uitdu	9
 
-#詞組簡碼	
+#詞組簡碼
+祭壇	jitj	9
 神丹	ufdj	7
 遊涉	yzue	9	
 熬過	aogo	9
@@ -11810,6 +11815,7 @@
 巷子	xlzi	9
 象棋	xlqi	9
 消除	xniu	9
+笑話	xnhx	10
 消化	xnhx	9
 消失	xnui	9
 消逝	xnui	9
@@ -12324,3 +12330,6 @@
 慢牛	mjnq	9
 蔓延	mjyj	10
 滿眼	mjyj	9
+相談	xltj	7
+養出	yhiu	9
+養畜	yhiu	10
