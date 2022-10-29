@@ -4,7 +4,7 @@
 schema:
   schema_id: xiaohe_wubi
   name: 小鶴五筆音形
-  version: "1.62" 
+  version: "1.7" 
   author:
     - Rime schema by 梨子
   dependencies:
@@ -49,9 +49,11 @@ engine:
     - table_translator@xiaohe_wubi_code        #表示调用小鹤五笔简码
     - table_translator@xnhe_wubi_codeExtend    #小鹤五笔扩展编码
     - table_translator@xnhe_wubi_codeU         #罕见字增广编码
+    - table_translator@luna_pinyin_simp_chaizi #u开启拆字模式
     - reverse_lookup_translator                #五笔86反查翻译器
-    - script_translator@luna_pinyin            #luna_pinyin字典的小鹤双拼翻译器
     - script_translator                        #小鹤字词主翻译器
+    - script_translator@luna_pinyin            #luna_pinyin字典的小鹤双拼翻译器
+    - table_translator@xnhe_wubi_phrase        #小鹤五笔超级简拼短语
   filters:
     - simplifier
     - uniquifier
@@ -69,13 +71,13 @@ speller:
     - derive/^(..[[]..).+(;)$/$1/
     - derive/^(..[[].).+(.;)$/$1$2/
     - derive/^(..[[].).+(;)$/$1$2/
-    - derive/^(..[[]).+(;)$/$1$2/
+    - fuzz/^(..[[]).+(;)$/$1$2/
 #去除引导码、分号分词
     - xform/[[]//
     - xform/;//
-    - derive/^uf$/fu/
+    - abbrev/^(.).+$/$1/
 
-translator:                #小鹤字词翻译器
+translator:                      #小鹤字词翻译器
   dictionary: xiaohe_wubi_char
   user_dict: xiaohe_wubi
   enable_charset_filter: true    #字符集过滤，低重形码用不着
@@ -84,14 +86,15 @@ translator:                #小鹤字词翻译器
 
 luna_pinyin:
   dictionary: luna_pinyin
+  user_dict: luna_pinyin
   prism: double_pinyin_flypy
-  initial_quality: 1.1
+  initial_quality: 0.9
 
 reverse_lookup_xiaohe_wubi:      #小鹤五笔编码反查滤镜
   dictionary: reverse_lookup_xiaohe_wubi
   comment_format:
     - xform/^(.....).$/$1/
-    - xform/^..(.+)$/~$1/
+    - xform/^..(.+)$/·$1/
 
 reverse_lookup:                  #五笔86反查翻译器
   dictionary: wubi86             #用于反查编码的另一种输入法词库名称
@@ -164,7 +167,23 @@ xnhe_wubi_codeU:                 #大字集汉字
   db_class: stabledb
   enable_completion: true
   enable_sentence: false
-  initial_quality: 1
+  initial_quality: 0.4
+
+xnhe_wubi_phrase:                #超级简拼短语
+  dictionary: ""
+  user_dict: xnhe_wubi_phrase
+  db_class: tabledb
+  enable_completion: false
+  enable_sentence: false
+  initial_quality: 0
+
+luna_pinyin_simp_chaizi:         #u拆字模式
+  dictionary: ""
+  user_dict: luna_pinyin_simp_chaizi
+  db_class: stabledb
+  enable_completion: false
+  enable_sentence: false
+  initial_quality: 10
 
 punctuator:
   import_preset: default_symbols #設定符號表，這裏直接導入預設的
@@ -173,5 +192,6 @@ key_binder:
   import_preset: default         #键盘binder，這裏直接導入預設的
 
 recognizer:
+  import_preset: default
   patterns:
     reverse_lookup: "^o[a-z]*$"              #使用o激活反查，如有其他需要可以自行更改

@@ -19,7 +19,7 @@
 阿	a	8
 不	b	9
 八	b	8
-才	c	9
+纔	c	9
 此	c	8
 的	d	9
 帝	d	8
@@ -128,7 +128,6 @@
 頓	dy	9
 都	dz	9
 額	ee	9
-二	ef	9
 欸	ei	9
 嗯	en	9
 恩	en	9
@@ -241,7 +240,7 @@
 冷	lg	9
 浪	lh	9
 裏	li	9
-另	lk	9
+令	lk	9
 兩	ll	9
 連	lm	9
 料	ln	9
@@ -407,6 +406,7 @@
 追	vv	9
 抓	vx	9
 准	vy	9
+這	vw	9
 周	vz	9
 挖	wa	9
 外	wd	9
@@ -1162,6 +1162,7 @@
 菪	dha	8
 碭	dhd	9
 垱	dhf	9
+𪠽	dhk	9
 珰	dhg	9
 黨	dhi	9
 氹	dhi	8
@@ -1483,16 +1484,7 @@
 俄	eew	9
 訛	eey	9
 諤	eey	8
-二	efg	9
-複	eft	9
-管	egt	9
-鶴	ehp	9
 誒	eiy	9
-極	ejs	9
-計	ejy	9
-塊	ekf	9
-立	elu	9
-美	emu	9
 蒽	ena	9
 奀	eng	9
 嗯	enk	9
@@ -1898,6 +1890,7 @@
 獷	glq	8
 逛	glq	9
 桄	gls	9
+纩	glx	9
 廣	gly	9
 聒	gob	9
 腘	goe	8
@@ -3450,8 +3443,8 @@
 稞	ket	8
 屙	keu	9
 緙	kex	9
-刻	key	9
-課	key	8
+刻	key	8
+課	key	9
 頦	key	7
 肯	kfh	9
 齦	kfh	8
@@ -3835,8 +3828,8 @@
 泠	lki	9
 昤	lkj	8
 蛉	lkj	9
-呤	lkk	9
-另	lkk	8
+呤	lkk	8
+另	lkk	9
 〇	lkl	8
 囹	lkl	9
 嶺	lkm	9
@@ -3847,11 +3840,11 @@
 淩	lku	9
 羚	lku	8
 靈	lkv	9
-令	lkw	9
+領	lkw	9
 伶	lkw	7
 瓴	lkw	5
-翎	lkw	6
-領	lkw	8
+翎	lkw	8
+令	lkw	6
 鸰	lkw	4
 綾	lkx	9
 墚	llf	9
@@ -4169,6 +4162,7 @@
 瑉	mbg	9
 泯	mbi	9
 湣	mbi	8
+旻	mbj	9
 黽	mbk	9
 皿	mbl	9
 岷	mbm	9
@@ -8104,10 +8098,10 @@
 鯫	zzq	8
 揍	zzr	9
 諏	zzy	9
+
+#四級簡碼
 質	virm	9
 比	bixx	9
-
-#四級簡碼		
 吖	aakh	8
 籲	aakg	8
 犴	anqt	8
@@ -8627,7 +8621,7 @@
 鷲	jqyg	8
 狷	jrqt	8
 蠲	jruj	8
-棬	jruu	8
+棬	jrsb	8
 雋	jrwy	8
 冏	jsmw	8
 砄	jtdn	8
@@ -9560,9 +9554,10 @@
 卒	zuyf	8
 槜	zvse	8
 鄒	zzqb	8
-錙	ziqv	1
+錙	ziqv	8
 
-#補充簡碼		
+#補充簡碼
+翔	xlud	8
 桕	jqsg	8
 柾	jqsh	8
 欅	jusf	8
@@ -10294,6 +10289,11 @@
 悗	mjnq	8
 香	xltj	8
 箱	xltf	8
+翼	yinl	8
+志	vifn	8
+奧	aotd	8
+望	whyg	8
+撾	worf	8
 
 #五碼單字簡碼
 秕	bitxx	9
@@ -10361,6 +10361,26 @@
 矢	uitdu	9
 
 #詞組簡碼
+给予	jiyu	9
+依賴	yild	9
+由來	yzld	9
+怨恨	yrhf	9
+小鎮	xnvf	9
+越發	ytfa	9
+有種	yzvs	10
+由衷	yzvs	9
+喧囂	xrxn	9
+大蛇	daue	11
+大赦	daue	10
+搭設	daue	9
+多少	douc	9
+我人	worf	11
+我忍	worf	10
+倭人	worf	9
+特質	tevi	10
+特制	tevi	9
+祭司	jisi	9
+蝙蝠	bmfu	9
 祭壇	jitj	9
 神丹	ufdj	7
 遊涉	yzue	9	
@@ -10454,7 +10474,8 @@
 不切實際	buqpuiji	9
 不然	burj	9
 不少	buuc	9
-不適	buui	9
+不是	buui	9
+不適	buui	8
 不屑一顧	buxpyigu	9
 不用	buys	9
 不再	buzd	9
@@ -10522,7 +10543,6 @@
 遲疑	iiyi	9
 熾熱	iire	9
 充斥	isii	9
-沖高	isgc	9
 沖擊	isji	9
 崇尚	isuh	9
 蟲洞	isds	9
@@ -10707,7 +10727,7 @@
 反常	fjih	9
 反動	fjds	9
 反腐	fjfu	9
-反複	fjfu	9
+反複	fjfu	10
 反光	fjgl	9
 反悔	fjhv	9
 反思	fjsi	9
@@ -10742,7 +10762,7 @@
 奮力	ffli	9
 風格	fgge	9
 風力	fgli	9
-風險	fgxm	9
+風險	fgxm	10
 風雪	fgxt	9
 風雲	fgyy	9
 瘋癲	fgdm	9
@@ -11355,6 +11375,7 @@
 奇點	jidm	9
 奇怪	qigk	9
 奇妙	qimn	9
+其实	qiui	10
 歧視	qiui	9
 企業	qiye	9
 起點	qidm	9
@@ -11925,7 +11946,7 @@
 一根	yigf	9
 一股	yigu	9
 一會	yihv	9
-一己	yiji	9
+以及	yiji	9
 一件	yijm	9
 一街	yijp	9
 一句	yiju	9
@@ -12138,6 +12159,8 @@
 重組	iszu	9
 皺起	vzqi	9
 豬玀	vulo	9
+注釋	vuui	9
+注視	vuui	10
 主城	vuig	9
 主人	vurf	9
 主任	vurf	9
@@ -12152,7 +12175,7 @@
 專賣	vrmd	9
 專項	vrxl	9
 專研	vryj	9
-轉圜	vrhr	9
+轉換	vrhr	9
 轉賣	vrmd	9
 轉身	vruf	9
 轉頭	vrtz	9
@@ -12190,6 +12213,7 @@
 走近	zzjb	9
 走樣	zzyh	9
 阻止	zuvi	9
+組織	zuvi	10
 最好	zvhc	9
 最終	zvvs	9
 左邊	zobm	9
@@ -12200,6 +12224,8 @@
 座位	zoww	9
 做了	zole	9
 新宿	xbsu	9
+不同	buts	9
+基層	jicg	9
 我感覺	wogjjt	9
 我覺得	wojtde	9
 運動	yyds	9
@@ -12315,8 +12341,9 @@
 到敢	dcgj	9
 禱告	dcgc	9
 蕩產	dhij	10
+留意	lqyi	9
 黨產	dhij	9
-认为	rfww	11
+認為	rfww	11
 人为	rfww	10
 任委	rfww	9
 奇怪	qigk	11
@@ -12333,3 +12360,19 @@
 相談	xltj	7
 養出	yhiu	9
 養畜	yhiu	10
+網頁	whye	10
+王爺	whye	9
+姨孃	yinl	7
+颂声	ssug	10
+宋生	ssug	9
+都能	dzng	9
+蠢蛋	iydj	9
+尋常	xyih	9
+與之	yuvi	10
+閾值	yuvi	9
+可用	keys	9
+亂碼	lrma	9
+眼袋	yjdd	7
+心安	xban	9
+崇高	isgc	9
+實事求是	uiuiqqui	9
