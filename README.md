@@ -18,13 +18,20 @@ xnhe_wubi-小鹤双拼增强版
 
 #特殊编码
 
-除了常用的编码外，还设置28组特殊简码。
+除了常用的编码外，另设置28组特殊简码。
+
 現	xg 物	wt 任	rw 種	vt
+
 鳳	fm 網	wm 實	up 僅	jw
+
 央	ym 暗	aj 書	un 殺	uq
+
 杉	us 矢	ut 仕	uw 紗	ux
+
 子	zb 既	jvq 和	ht 妈	mv
+
 阿	ab 哀	ay 峨	em 及	je
+
 盎	am 以	yn 翼	yn 華	hwx
 
 详细编码见xnhe_wubi_codeExtend.txt及xnhe_wubi_charExtend.dict.yaml
