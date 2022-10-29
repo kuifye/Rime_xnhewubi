@@ -35,3 +35,59 @@ xnhe_wubi-小鹤双拼增强版
 盎	am 以	yn 翼	ynl 華	hwx
 
 详细编码见xnhe_wubi_codeExtend.txt及xnhe_wubi_charExtend.dict.yaml
+
+# 一级简码（数字固定在次候选位）
+
+啊	a	9
+阿	a	8
+不	b	9
+八	b	8
+纔	c	9
+此	c	8
+的	d	9
+帝	d	8
+而	e	9
+二	e	8
+發	f	9
+非	f	8
+個	g	9
+國	g	8
+和	h	9
+花	h	8
+出	i	9
+乘	i	8
+就	j	9
+九	j	8
+可	k	9
+康	k	8
+了	l	9
+六	l	8
+沒	m	9
+漠	m	8
+你	n	9
+廿	n	8
+哦	o	9
+喔	o	8
+平	p	9
+蘋	p	8
+去	q	9
+七	q	8
+人	r	9
+入	r	8
+所	s	9
+三	s	8
+他	t	9
+它	t	8
+是	u	9
+十	u	8
+這	v	9
+之	v	8
+我	w	9
+五	w	8
+小	x	9
+香	x	8
+卌	x	7
+以	y	9
+一	y	8
+在	z	9
+子	z	8
