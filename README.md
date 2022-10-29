@@ -32,6 +32,6 @@ xnhe_wubi-小鹤双拼增强版
 
 阿	ab 哀	ay 峨	em 及	je
 
-盎	am 以	yn 翼	yn 華	hwx
+盎	am 以	yn 翼	ynl 華	hwx
 
 详细编码见xnhe_wubi_codeExtend.txt及xnhe_wubi_charExtend.dict.yaml
