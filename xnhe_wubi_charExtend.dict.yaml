@@ -56,6 +56,7 @@ use_preset_vocabulary: true
 眾	vs[wt;
 為	wy[;
 為	ww[o;
+試	uya[;
 
 #反犬旁
 	
@@ -218,6 +219,7 @@ use_preset_vocabulary: true
 
 #容易出錯的單字
 
+𠫬	yz[c;
 犬	qr[dt;
 那	na[;	99%
 达	da[dp;
@@ -2403,7 +2405,6 @@ use_preset_vocabulary: true
 诲	hv[yx;
 誨	hv[yx;
 嗨	hw[kit;
-嗨	hd[kit;
 嘿	hw[k;	100%
 黑	hw[lf;	100%
 骅	hx[cwx;
@@ -8349,38 +8350,39 @@ use_preset_vocabulary: true
 诹	zz[y;
 諏	zz[y;
 
+
 #音形码
 
-現	xg[mqn;
-種	vt[khh;
-實	up[udu;
-鳳	fm[ci;
-僅	jw[cy;
-網	wm[qqi;
-央	ym[di;
-物	wt[rqr;
-暗	aj[ujg;
-書	un[nhy;
-殺	uq[su;
-杉	us[et;
-矢	ut[du;
-仕	uw[fg;
-紗	ux[itt;
-子	zb[b;
+實	up[;
+現	xg[;
+種	vt[;
+鳳	fm[;
+僅	jw[;
+網	wm[;
+央	ym[;
+物	wt[;
+暗	aj[;
+書	un[;
+殺	uq[;
+杉	us[;
+矢	ut[;
+仕	uw[;
+紗	ux[;
+子	zb[;
 既	jvq[;
-和	ht[kg;
-任	rw[tfg;
-妈	mv[cg;
-阿	ab[skg;
-哀	ay[eu;
-峨	em[trt;
-及	je[yi;
-盎	am[dlf;
-以	yn[ywy;
-以	yi[c;
-翼	yn[law;
+和	ht[;
+任	rw[;
+妈	mv[;
+阿	ab[;
+哀	ay[;
+峨	em[;
+及	je[;
+盎	am[;
+以	yn[;
+以	yi[;
+翼	yn[;
 華	hwx[;
-裇	xu[ptl;
+裇	xu[;
 厌	yj[d;
 厭	yj[d;
 靨	yj[d;
