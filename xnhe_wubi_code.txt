@@ -4008,7 +4008,7 @@
 聾	lsd	8
 龍	lsd	7
 朧	lse	9
-壟	lsf	9
+垅	lsf	9
 弄	lsg	8
 瓏	lsg	9
 眬	lsh	9
@@ -10310,6 +10310,7 @@
 育	yuye	8
 刻	keyn	8
 釜	fuwu	8
+𠫬	yzcc	8
 
 #五碼單字簡碼
 秕	bitxx	9
@@ -11738,7 +11739,6 @@
 分神	ffuf	9
 分送	ffss	9
 分訴	ffsu	9
-分歲	ffsv	9
 分所	ffso	9
 分為	ffww	9
 分文	ffwf	9
@@ -12133,7 +12133,6 @@
 滾下	gyxx	9
 棍氣	gyqi	9
 郭記	goji	9
-郭軍	gojy	9
 郭裏	goli	9
 聒噪	gozc	9
 國徽	gohv	9
@@ -13280,7 +13279,6 @@
 可明	kemk	9
 可能	keng	9
 可憑	kepk	9
-可松	kess	9
 可歎	ketj	9
 可同	kets	9
 可圖	ketu	9
@@ -13729,7 +13727,7 @@
 亂碼	lrma	9
 亂跳	lrtn	9
 亂象	lrxl	9
-亂用	lrys	9
+亂用	lrys	7
 亂羽	lryu	9
 倫小	lyxn	9
 淪落	lylo	9
@@ -16872,6 +16870,7 @@
 友軍	yzjy	9
 友生	yzug	9
 友旺	yzwh	9
+油槽	yzcc	10
 有草	yzcc	9
 有待	yzdd	10
 有得	yzde	9

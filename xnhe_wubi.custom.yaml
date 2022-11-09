@@ -3,8 +3,6 @@ patch:
   easy_en/enable_sentence: false
   __include: grammar:/hant
 
-#扩充符号
-  recognizer/patterns/punct:  '^\\([0-9]0?|[A-Za-z]+)$'
 #扩充字库
   # 'luna_pinyin/dictionary': luna_pinyin_extended
   # 'luna_pinyin/prism': double_pinyin_flypy

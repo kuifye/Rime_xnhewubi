@@ -5729,7 +5729,7 @@ T裇	txu	9
 酚	ffsg	8
 酚	ffsgwv	8
 酚	ffsgv	8
-酚	ffsv	8
+酚	ffsv	7
 焚	ffss	8
 焚	ffsso	8
 焚	ffso	8
@@ -7387,7 +7387,7 @@ T裇	txu	9
 蜾	gojs	8
 蜾	gojjsy	8
 蜾	gojjy	8
-蜾	gojy	8
+蜾	gojy	7
 蝈	gojlg	8
 蝈	gojl	8
 蝈	gojlgy	8
@@ -7398,7 +7398,7 @@ T裇	txu	9
 蟈	gojlgy	8
 蟈	gojly	8
 蟈	gojy	8
-果	gojs	8
+果	gojs	7
 果	gojsi	8
 果	goji	8
 啯	gokl	8
@@ -15255,12 +15255,12 @@ T裇	txu	9
 锞	keqjy	8
 锞	keqy	8
 钶	keqsk	8
-钶	keqs	8
+钶	keqs	7
 钶	keqk	8
 钶	keqskg	8
 钶	keqsg	8
 鈳	keqsk	8
-鈳	keqs	8
+鈳	keqs	7
 鈳	keqk	8
 鈳	keqskg	8
 鈳	keqsg	8
@@ -15273,7 +15273,7 @@ T裇	txu	9
 可	keskd	8
 可	kesd	8
 柯	kessk	8
-柯	kess	8
+柯	kess	7
 柯	kesskg	8
 柯	kessg	8
 柯	kesg	8
