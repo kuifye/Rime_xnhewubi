@@ -10311,6 +10311,7 @@
 刻	keyn	8
 釜	fuwu	8
 𠫬	yzcc	8
+嗨	hdki	8
 
 #五碼單字簡碼
 秕	bitxx	9
@@ -17136,7 +17137,6 @@
 早起	zcqi	9
 璅蟲	zcis	9
 造反	zcfj	9
-造就	zcjq	9
 躁動	zcds	9
 責任	zerf	10
 澤坤	zeky	9

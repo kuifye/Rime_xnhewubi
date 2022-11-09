@@ -4,7 +4,7 @@
 schema:
   schema_id: xnhe_wubi
   name: 小鶴五筆音形
-  version: "1.73" 
+  version: "1.74" 
   author:
     - Rime schema by 梨子
   dependencies:
@@ -54,7 +54,6 @@ engine:
     - reverse_lookup_translator                #五笔86反查翻译器
     - script_translator                        #小鹤字词主翻译器
     #- script_translator@luna_pinyin            #luna_pinyin字典的小鹤双拼翻译器
-    #- table_translator@xnhe_wubi_phrase_txt    #小鹤五笔超级简拼短语
   filters:
     - simplifier
     - uniquifier
@@ -98,6 +97,10 @@ translator:                      #小鹤字词翻译器
 #   prism: double_pinyin_flypy
 #   initial_quality: 0.9
 
+# abc_segmentor:
+#   extra_tags:
+#     - reverse_lookup
+  
 reverse_lookup_xnhe_wubi:      #小鹤五笔编码反查滤镜
   dictionary: reverse_lookup_xnhe_wubi
   comment_format:
@@ -187,14 +190,6 @@ xnhe_wubi_codeU:                 #大字集汉字
   # comment_format:
   #   - xform/.*//
 
-# xnhe_wubi_phrase_txt:                #超级简拼短语
-#   dictionary: ""
-#   user_dict: xnhe_wubi_phrase_txt
-#   db_class: stabledb
-#   enable_completion: false
-#   enable_sentence: false
-#   initial_quality: 0
-
 luna_pinyin_simp_chaizi:         #u拆字模式
   dictionary: ""
   user_dict: luna_pinyin_simp_chaizi
@@ -206,10 +201,12 @@ luna_pinyin_simp_chaizi:         #u拆字模式
 punctuator:
   import_preset: default_symbols #設定符號表，這裏直接導入預設的
 
-key_binder:
-  import_preset: default         #键盘binder，這裏直接導入預設的
-
 recognizer:
   import_preset: default
   patterns:
-    reverse_lookup: "^o[a-z]*$"              #使用o激活反查，如有其他需要可以自行更改
+    reverse_lookup: "^o[a-z]*$"  #使用o激活反查，如有其他需要可以自行更改
+
+grammar:
+  import_preset: default
+  language:
+    zh-hant-t-essay-bgc

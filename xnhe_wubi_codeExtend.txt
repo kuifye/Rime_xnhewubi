@@ -37684,7 +37684,8 @@ ap	ap
 網站	wv
 我在	wz
 巍峨	we
-喜好	xh
+喜歡	xh	6
+喜好	xh	5
 相機	xj
 洗澡	xz
 想法	xf
