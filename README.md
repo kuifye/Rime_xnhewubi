@@ -2,6 +2,8 @@
 xnhe_wubi-小鹤双拼增强版
 基于rime平台的小鹤五笔音形输入法，支持朙月字库和长句输入，挂载五笔形码作为辅助码，无引导码。
 
+# 简单介绍
+
 u+全拼开启拆字模式，如：骉umamama
 
 o开启五笔反查模式，如：百odj
@@ -20,7 +22,7 @@ o开启五笔反查模式，如：百odj
 
 # 特殊编码
 
-除了常用的编码外，另设置28组特殊简码。
+除了常用的编码外，另设置30组特殊简码。
 
 現	xg 物	wt 任	rw 種	vt
 
@@ -32,9 +34,9 @@ o开启五笔反查模式，如：百odj
 
 子	zb 既	jvq 和	ht 妈	mv
 
-阿	ab 哀	ay 峨	em 及	je
+阿	ab 哀	ay 峨	em 及	je 幽 yx
 
-盎	am 以	yn 翼	ynl 華	hwx
+盎	am 以	yn 翼	ynl 華	hwx 为 wy
 
 详细编码见xnhe_wubi_codeExtend.txt及xnhe_wubi_charExtend.dict.yaml
 
