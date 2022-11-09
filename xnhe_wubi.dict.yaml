@@ -1,0 +1,1666 @@
+# Rime dictionary test
+# encoding: utf-8
+
+---
+name: xnhe_wubi
+version: "2022.10.30"
+sort: by_weight
+use_preset_vocabulary: true
+import_tables:
+  - xnhe_wubi_charExtend
+  - xnhe_wubi_phrase
+...
+
+#——————————————————————————单字——————————————————————————
+
+䔽	ai[aijn;
+艾	ai[aqu;	99%
+蔼	ai[ayjn;
+藹	ai[ayjn;
+爱	ai[epdc;
+愛	ai[epdc;
+叆	ai[fcec;
+埃	ai[fctd;
+毐	ai[fxdr;
+㶼	ai[octd;
+皑	ai[rmnn;
+皚	ai[rmnn;
+鞍	an[afpv;
+胺	an[epvg;
+盦	an[wynl;
+坳	ao[fxln;
+聱	ao[gqtb;
+遨	ao[gqtp;
+鏊	ao[gqtq;
+芭	ba[acb;
+茇	ba[adcu;
+靶	ba[afcn;
+菝	ba[ardc;
+坝	ba[fmy;
+壩	ba[fmy;
+粑	ba[ocn;
+鲅	ba[qgdc;
+鮁	ba[qgdc;
+爸	ba[wqcb;	100%
+八	ba[wty;
+膑	bb[eprw;
+臏	bb[eprw;
+薄	bc[aigf;	43%
+苞	bc[aqnb;
+葆	bc[awks;
+胞	bc[eqnn;
+雹	bc[fqnb;
+爆	bc[ojai;	100%
+抱	bc[rqnn;
+枹	bc[sqnn;
+保	bc[wksy;
+败	bd[mty;
+敗	bd[mty;
+苯	bf[asgf;
+锛	bf[qdfa;
+錛	bf[qdfa;
+绷	bg[xeeg;
+繃	bg[xeeg;
+蒡	bh[aupy;
+蚌	bh[jdhh;	72%
+荸	bi[afpb;
+𦳈	bi[alxx;
+薜	bi[anku;
+蓖	bi[atlx;
+蔽	bi[aumt;
+芘	bi[axxb;
+珌	bi[gntt;
+滗	bi[ittn;
+潷	bi[ittn;
+篦	bi[ttlx;
+佖	bi[wntt;
+仳	bi[wxxn;
+庇	bi[yxxv;
+靽	bj[afuf;
+阪	bj[frcy;
+坂	bj[frcy;
+炳	bk[ogmw;
+鞭	bm[afwq;
+苄	bm[ayhu;
+昪	bm[jcaj;
+煸	bm[oyna;
+甂	bm[ynmn;
+遍	bm[ynmp;	100%
+蔈	bn[asfi;
+膘	bn[esfi;
+熛	bn[osfi;
+菔	bo[aebc;
+菠	bo[aihc;
+脖	bo[efpb;
+勃	bo[fpbl;
+不	bu[gii;	100%
+蓓	bw[awuk;
+糒	bw[oate;
+北	bw[uxn;	100%
+艹	cc[aghh;
+艸	cc[aghh;
+草	cc[ajj;
+糙	cc[otfp;
+菜	cd[aesu;
+蔡	cd[awfi;	100%
+采	cd[esu;
+才	cd[fte;
+偲	cd[wlny;
+涔	cf[imwn;
+梣	cf[smwn;
+藏	ch[adnt;	77%
+苍	ch[awbb;
+蒼	ch[awbb;
+沧	ch[iwbn;
+滄	ch[iwbn;
+仓	ch[wbb;
+倉	ch[wbb;
+莿	ci[agmj;
+茨	ci[auqw;
+瓷	ci[uqwn;
+慈	ci[uxxn;
+灿	cj[omh;
+燦	cj[omh;
+蕞	co[ajbc;
+莝	co[awwf;
+脞	co[ewwf;
+错	co[qajg;
+锉	co[qwwf;
+銼	co[qwwf;
+葱	cs[aqrn;
+苁	cs[awwu;
+蓯	cs[awwu;
+骢	cs[ctln;
+驄	cs[ctln;
+熜	cs[otln;
+蔟	cu[aytd;
+粗	cu[oegg;
+錯	cu[qajg;	0%
+萃	cv[aywf;
+脆	cv[eqdb;
+焠	cv[oywf;
+粹	cv[oywf;
+邨	cy[gbnb;
+腠	cz[edwd;
+荙	da[adpu;
+鞑	da[afdp;
+韃	da[afdp;
+靼	da[afjg;
+垯	da[fdpy;
+炟	da[ojgg;
+搭	da[rawk;
+刀	dc[vnt;
+叇	dd[fcvp;
+埭	dd[fviy;
+歹	dd[gqi;	100%
+锝	de[qjgf;
+鍀	de[qjgf;
+灯	dg[osh;	1%
+燈	dg[osh;
+荡	dh[ainr;
+蕩	dh[ainr;
+菪	dh[apdf;
+鞮	di[afjh;
+菂	di[arqy;
+蒂	di[auph;
+地	di[fbn;	74%
+萏	dj[aqvf;
+胆	dj[ejgg;
+膽	dj[ejgg;
+旦	dj[jgf;
+萣	dk[apgh;
+腚	dk[epgh;
+垛	do[fmsy;
+铎	do[qcfh;
+鐸	do[qcfh;
+爹	dp[wqqq;
+绖	dp[xgcf;
+断	dr[onrh;
+斷	dr[onrh;
+煅	dr[owdc;
+锻	dr[qwdc;
+鍛	dr[qwdc;
+缎	dr[xwdc;
+緞	dr[xwdc;
+东	ds[aii;
+東	ds[aii;
+鸫	ds[aiqg;
+鶇	ds[aiqg;
+董	ds[atgf;
+苳	ds[atuu;
+胨	ds[eaiy;
+腖	ds[eaiy;
+胴	ds[emgk;
+动	ds[fcln;
+動	ds[fcln;
+芏	du[aff;
+肚	du[efg;
+读	du[yfnd;	99%
+讀	du[yfnd;	99%
+嗲	dx[kwqq;	100%
+墩	dy[fybt;
+顿	dy[gbnm;	98%
+頓	dy[gbnm;	98%
+燉	dy[ogbn;
+炖	dy[ogbn;
+蔸	dz[aqrq;
+苊	ee[adbb;
+萼	ee[akkn;
+莪	ee[atrt;
+腭	ee[ekkn;
+齶	ee[ekkn;
+峨	ee[mtrt;
+扼	ee[rdbn;
+俄	ee[wtrt;
+讹	ee[ywxn;
+訛	ee[ywxn;
+蒽	en[aldn;
+摁	en[rldn;
+贰	er[afmi;
+貳	er[afmi;
+臑	er[efdj;
+鲕	er[qgdj;
+鮞	er[qgdj;
+芬	ff[awvb;
+棻	ff[awvs;
+坟	ff[fyy;
+墳	ff[fyy;
+粉	ff[owvn;
+分	ff[wvb;
+烽	fg[otdh;
+芳	fh[ayb;
+肪	fh[eyn;
+坊	fh[fyn;
+仿	fh[wyn;
+范	fj[aibb;
+範	fj[aibb;
+藩	fj[aitl;
+芃	fj[amyu;
+蕃	fj[atol;
+蘩	fj[atxi;
+烦	fj[odmy;
+煩	fj[odmy;
+莩	fu[aebf;	50%
+芙	fu[afwu;
+𩉽	fu[afxj;
+𦲫	fu[arxj;
+茯	fu[awdu;
+苻	fu[awfu;
+茀	fu[axjj;
+郛	fu[ebbh;
+服	fu[ebcy;
+孚	fu[ebf;
+肤	fu[efwy;
+膚	fu[efwy;
+腹	fu[etjt;
+腑	fu[eywf;
+鲋	fu[qgwf;
+鮒	fu[qgwf;
+覆	fu[sttt;
+缚	fu[xgef;
+縛	fu[xgef;
+刜	fu[xjjh;
+腐	fu[ywfw;
+菲	fw[adjd;
+匪	fw[adjd;
+芾	fw[agmh;	75%
+朏	fw[ebmh;
+蜰	fw[ecju;
+肥	fw[ecn;
+腓	fw[edjd;
+肺	fw[egmh;	100%
+鲱	fw[qgdd;
+鯡	fw[qgdd;
+妃	fw[vnn;	100%
+绯	fw[xdjd;
+緋	fw[xdjd;
+扉	fw[yndd;
+芣	fz[agiu;
+缶	fz[rmk;
+尕	ga[eiu;
+藁	gc[ayms;
+荄	gd[aynw;
+戤	gd[ecla;
+胲	gd[eynw;
+炌	gd[owjh;
+革	ge[afj;	98%
+戈	ge[agnt;
+葛	ge[ajqn;
+膈	ge[egkh;
+胳	ge[etkg;
+圪	ge[ftnn;
+緙	ge[xafh;
+茛	gf[aveu;
+鹒	gg[yvwg;
+赓	gg[yvwm;
+賡	gg[yvwm;
+肛	gh[eag;
+甘	gj[afd;
+靬	gj[affh;
+肝	gj[efh;
+頇	gj[fdmy;
+澉	gj[inbt;
+旰	gj[jfh;
+撖	gj[rnbt;
+橄	gj[snbt;
+绀	gj[xafg;
+紺	gj[xafg;
+拐	gk[rkln;
+胱	gl[eiqn;
+垙	gl[fiqn;
+光	gl[iqb;
+咣	gl[kiqn;
+虢	go[efhm;
+腘	go[elgy;
+过	go[fpi;
+過	go[fpi;
+鹳	gr[akkg;
+鸛	gr[akkg;
+莞	gr[apfq;	86%
+观	gr[cmqn;
+觀	gr[cmqn;
+朊	gr[efqn;
+脘	gr[epfq;
+琯	gr[gpnn;
+涫	gr[ipnn;
+爟	gr[oaky;
+棺	gr[spnn;
+婠	gr[vpnn;
+倌	gr[wpnn;
+廾	gs[agth;
+汞	gs[aiu;	100%
+功	gs[aln;
+贡	gs[amu;
+貢	gs[amu;
+巩	gs[amyy;
+鞏	gs[amyy;
+攻	gs[aty;
+恭	gs[awnu;
+共	gs[awu;
+肱	gs[edcy;
+菰	gu[abry;
+菇	gu[avdf;
+臌	gu[efkc;
+股	gu[emcy;
+胍	gu[ercy;
+轂	gu[fplc;
+毂	gu[fplc;
+蛄	gu[jdg;
+钴	gu[qdg;
+鈷	gu[qdg;
+诂	gu[ydg;
+詁	gu[ydg;
+匱	gv[akhm;	1%
+匦	gv[alvv;
+匭	gv[alvv;
+归	gv[jvg;
+歸	gv[jvg;	100%
+煃	gv[odff;
+粿	gv[ojsy;
+鍷	gv[qdff;
+觟	gv[qeff;
+鳜	gv[qgdw;
+鱖	gv[qgdw;
+鲑	gv[qgff;
+鮭	gv[qgff;
+繪	gv[xwfc;
+腡	gx[ekmw;
+诖	gx[yffg;
+詿	gx[yffg;
+鞲	gz[afff;
+苟	gz[aqkf;
+耇	gz[ftqk;
+薅	hc[avdf;
+蒿	hc[aymk;	100%
+壕	hc[fype;
+还	hd[gipi;	98%
+還	hd[gipi;	98%
+鞨	he[afjn;
+菏	he[aisk;
+荷	he[awsk;
+熇	he[oymk;
+蘅	hg[atqh;
+夯	hh[dlb;	97%
+肮	hh[eymn;
+颃	hh[ymdm;
+頏	hh[ymdm;
+菡	hj[abib;
+邯	hj[afbh;
+蔊	hj[aojf;
+顸	hj[fdmy;
+蚶	hj[jafg;
+旱	hj[jfj;
+焊	hj[ojfh;
+焓	hj[owyk;
+含	hj[wynk;	100%
+颔	hj[wynm;
+頷	hj[wynm;
+黄	hl[amwu;
+黃	hl[amwu;
+荒	hl[aynq;
+煌	hl[orgg;
+藿	ho[afwy;
+或	ho[akgd;
+惑	ho[akgn;
+获	ho[aqtd;
+獲	ho[aqtd;	100%
+蠖	ho[jawc;
+灬	ho[oyyy;
+镬	ho[qawc;
+鑊	ho[qawc;
+烜	hr[ogjg;
+焕	hr[oqmd;
+煥	hr[oqmd;
+锾	hr[qefc;
+鍰	hr[qefc;
+换	hr[rqmd;
+換	hr[rqmd;
+缓	hr[xefc;
+緩	hr[xefc;
+薨	hs[alpx;
+虹	hs[jag;	99%
+烘	hs[oawy;
+红	hs[xag;	99%
+紅	hs[xag;	99%
+葫	hu[adef;
+蝴	hu[jdeg;
+糊	hu[odeg;
+鳠	hu[qgac;
+蕙	hv[agjn;
+荟	hv[awfc;
+薈	hv[awfc;
+煒	hv[ofnh;
+烩	hv[owfc;
+燴	hv[owfc;
+绘	hv[xwfc;
+划	hx[ajh;
+劃	hx[ajh;	99%
+花	hx[awxb;
+劐	hx[awyj;
+化	hx[wxn;
+荤	hy[aplj;
+葷	hy[aplj;	100%
+魂	hy[fcrc;
+昏	hy[qajf;
+吼	hz[kbnn;	100%
+糇	hz[ownd;
+餱	hz[ownd;
+茬	ia[adhf;	100%
+茶	ia[awsu;
+嚓	ia[kpwi;	78%
+吵	ic[kitt;
+焯	ic[ohjh;
+炒	ic[oitt;
+绰	ic[xhjh;	50%
+綽	ic[xhjh;	5%
+茈	id[ahxb;
+坼	ie[fryy;
+臣	if[ahnh;
+沉	if[ipmn;
+晨	if[jdfe;
+縝	if[xfhw;
+谶	if[ywwg;
+塍	ig[eudf;
+城	ig[fdnt;
+蛏	ig[jcfg;
+蟶	ig[jcfg;
+槍	ig[swbn;	0%
+菖	ih[ajjf;
+肠	ih[enrt;
+腸	ih[enrt;
+脹	ih[etay;
+場	ih[fnrt;
+场	ih[fnrt;
+昌	ih[jjf;
+鲳	ih[qgjj;
+鯧	ih[qgjj;
+偿	ih[wipc;
+償	ih[wipc;
+茌	ii[awff;
+驰	ii[cbn;
+馳	ii[cbn;
+胣	ii[etbn;
+翅	ii[fcnd;
+池	ii[ibn;
+吃	ii[ktnn;	100%
+炽	ii[okwy;
+熾	ii[okwy;	100%
+侈	ii[wqqy;
+蒇	ij[admt;
+蕆	ij[admt;
+韂	ij[afqy;
+骣	ij[cnbb;
+驏	ij[cnbb;
+潺	ij[inbb;
+儳	ij[wqky;
+谄	ij[yqvg;
+諂	ij[yqvg;
+讖	ij[ywwg;
+蔥	il[aqrn;
+腨	ir[emdj;
+蝽	ir[jdwj;
+舛	ir[qahh;
+茺	is[aycq;
+滁	iu[ibwt;
+刍	iu[qvf;
+芻	iu[qvf;
+畜	iu[yxlf;	81%
+炊	iv[oqwy;
+槌	iv[swnp;
+莼	iy[axgn;
+蓴	iy[axgn;
+焞	iy[oybg;
+糗	iz[othd;
+仇	iz[wvn;	83%
+雠	iz[wyyy;
+讎	iz[wyyy;
+謅	iz[yqvg;
+靳	jb[afrh;
+觐	jb[akgq;
+覲	jb[akgq;
+荩	jb[anyu;
+藎	jb[anyu;
+矜	jb[cbtn;	100%
+近	jb[rpk;
+仅	jb[wcy;	0%
+僅	jb[wcy;
+今	jb[wynb;
+缙	jb[xgoj;
+縉	jb[xgoj;
+藉	ji[adij;	39%
+基	ji[adwf;
+惎	ji[adwn;
+芨	ji[aeyu;
+蕺	ji[akbt;
+蓟	ji[aqgj;
+薊	ji[aqgj;	100%
+蘄	ji[aujr;
+肌	ji[emn;
+及	ji[eyi;
+圾	ji[feyy;
+賷	ji[fkkm;
+击	ji[fmk;
+擊	ji[fmk;
+棘	ji[gmii;	100%
+玑	ji[gmn;
+璣	ji[gmn;
+戢	ji[kbnt;
+叽	ji[kmn;	100%
+嘰	ji[kmn;
+机	ji[smn;	90%
+機	ji[smn;
+稷	ji[tlwt;
+讥	ji[ymn;
+譏	ji[ymn;
+记	ji[ynn;
+記	ji[ynn;
+菁	jk[agef;
+檠	jk[aqks;
+敬	jk[aqkt;
+警	jk[aqky;
+胫	jk[ecag;
+脛	jk[ecag;
+肼	jk[efjh;
+晶	jk[jjjf;
+精	jk[ogeg;
+粳	jk[ogjq;
+倞	jk[wyiy;
+经	jk[xcag;
+經	jk[xcag;
+弪	jk[xcag;
+弳	jk[xcag;
+匠	jl[ark;
+蒋	jl[auqf;
+蔣	jl[auqf;
+蔃	jl[axkj;
+膙	jl[exkj;
+糨	jl[oxkj;
+疆	jl[xfgg;
+葴	jm[adgt;
+荐	jm[adhb;
+薦	jm[adhb;
+鞬	jm[afvp;
+茧	jm[aju;	0%
+繭	jm[aju;
+菅	jm[apnn;	100%
+蒹	jm[auvo;
+腱	jm[evfp;
+坚	jm[jcff;
+堅	jm[jcff;
+鲣	jm[qgjf;
+鰹	jm[qgjf;
+拣	jm[ranw;
+揀	jm[ranw;
+枧	jm[smqn;
+梘	jm[smqn;
+茭	jn[auqu;
+艽	jn[avb;
+蕉	jn[awyo;	100%
+脚	jn[efcb;	99%
+腳	jn[efcb;	99%
+胶	jn[euqy;
+膠	jn[euqy;
+教	jn[ftbt;
+觉	jn[ipmq;	21%
+覺	jn[ipmq;	21%
+角	jn[qej;	80%
+节	jp[abj;
+節	jp[abj;
+薢	jp[aqeh;
+芥	jp[awjj;	90%
+劫	jp[fcln;
+颉	jp[fkdm;
+頡	jp[fkdm;	95%
+劼	jp[fkln;
+蚧	jp[jwjh;
+解	jp[qevh;	99%
+薤	jq[agqg;
+救	jq[fiyt;
+九	jq[vtn;
+僦	jq[wyin;
+焆	jr[okeg;
+坰	js[ftmk;
+炯	js[omkg;
+蕨	jt[aduw;
+爵	jt[elvf;	100%
+蠼	jt[jhhc;
+爝	jt[oelf;
+掘	jt[rnbm;
+倔	jt[wnbm;
+苴	ju[aegf;
+鞠	ju[afqo;
+鞫	ju[afqy;
+菹	ju[aieg;
+莒	ju[akkf;
+菊	ju[aqou;
+𩧺	ju[cnnk;
+雎	ju[egwy;
+腒	ju[endg;
+炬	ju[oang;
+荚	jx[aguw;
+莢	jx[aguw;
+茄	jx[alkf;	53%
+葭	jx[anhc;
+胛	jx[elh;
+菌	jy[altu;
+蕈	jy[asjj;
+莙	jy[avtk;
+葰	jy[awct;
+焌	jy[ocwt;	50%
+隽	jy[wyeb;	66%
+雋	jy[wyeb;	66%
+胩	ka[ehhy;
+烤	kc[oftn;
+蒈	kd[axxr;
+垲	kd[fmnn;
+塏	kd[fmnn;
+苛	ke[askf;	100%
+壳	ke[fpmb;	97%
+殼	ke[fpmb;	97%
+炣	ke[oskg;
+氪	ke[rndq;
+缂	ke[xafh;
+坑	kg[fymn;
+铿	kg[qjcf;
+鏗	kg[qjcf;
+炕	kh[oymn;
+糠	kh[oyvi;
+伉	kh[wymn;
+勘	kj[adwl;
+莰	kj[afqw;
+闞	kj[unbt;	97%
+阚	kj[unbt;	97%
+侃	kj[wkqn;
+蒯	kk[aeej;
+脍	kk[ewfc;
+膾	kk[ewfc;
+鲙	kk[qgwc;
+匡	kl[agd;
+圹	kl[fyt;
+壙	kl[fyt;
+恐	ks[amyn;
+控	ks[rpwa;
+苦	ku[adf;
+堀	ku[fnbm;
+匮	kv[akhm;	99%
+葵	kv[awgd;	100%
+亏	kv[fnv;	0%
+虧	kv[fnv;
+蝰	kv[jdff;
+暌	kv[jwgd;
+傀	kv[wrqc;
+胯	kx[edfn;
+頑	ky[fqdm;
+焜	ky[ojxx;
+芤	kz[abnb;
+蔻	kz[apfc;
+鞡	la[afru;
+腊	la[eajg;	0%
+臘	la[eajg;
+蜡	la[jajg;	0%
+蠟	la[jajg;
+蔺	lb[auwy;
+藺	lb[auwy;
+粼	lb[oqab;
+粦	lb[oqah;
+遴	lb[oqap;
+鳞	lb[qgoh;
+鱗	lb[qgoh;
+邻	lb[wycb;
+鄰	lb[wycb;
+荖	lc[aftx;
+劳	lc[aplb;
+勞	lc[aplb;
+老	lc[ftxb;
+烙	lc[otkg;
+捞	lc[rapl;
+撈	lc[rapl;
+莱	ld[agou;
+萊	ld[agou;
+勒	le[afln;	96%
+仂	le[wln;
+䔖	lg[abft;
+塄	lg[flyn;
+蒗	lh[aiye;
+蓢	lh[ayve;
+埌	lh[fyve;
+烺	lh[oyve;
+荔	li[alll;
+莉	li[atjj;
+藜	li[atqi;
+莅	li[awuf;
+蒞	li[awuf;
+雳	li[fdlb;
+靂	li[fdlb;
+坜	li[fdln;
+壢	li[fdln;
+嫠	li[fitv;
+里	li[jfd;
+裏	li[jfd;
+粝	li[oddn;
+糲	li[oddn;
+鲤	li[qgjf;
+鯉	li[qgjf;
+锂	li[qjfg;
+鋰	li[qjfg;
+傈	li[wssy;
+蠡	li[xejj;
+蓝	lj[ajtl;
+藍	lj[ajtl;	100%
+煉	lj[oanw;
+菱	lk[afwt;
+苓	lk[awyc;
+酃	lk[fkkb;
+领	lk[wycm;
+領	lk[wycm;
+瓴	lk[wycn;
+翎	lk[wycn;
+莨	ll[ayve;
+墚	ll[fivs;
+量	ll[jgjf;
+粮	ll[oyve;
+糧	ll[oyve;
+莲	lm[alpu;
+蓮	lm[alpu;
+薟	lm[awgi;
+蔹	lm[awgt;
+蘞	lm[awgt;
+膦	lm[eoqh;
+脸	lm[ewgi;
+臉	lm[ewgi;
+臁	lm[eyuo;
+炼	lm[oanw;
+蓼	ln[anwe;
+撂	ln[rltk;
+落	lo[aitk;	98%
+萝	lo[alqu;
+蘿	lo[alqu;
+荦	lo[aprh;
+犖	lo[aprh;
+脶	lo[ekmw;
+爍	lo[oqiy;
+珋	lq[gqtb;
+飗	lq[mqql;
+熘	lq[oqyl;
+柳	lq[sqtb;
+茏	ls[adxb;
+蘢	ls[adxb;
+胧	ls[edxn;
+朧	ls[edxn;
+垅	ls[fdxn;
+拢	ls[rdxn;
+攏	ls[rdxn;
+蕗	lu[akhk;
+菉	lu[aviu;
+芦	lu[aynr;	1%
+蘆	lu[aynr;
+胪	lu[ehnt;
+臚	lu[ehnt;
+炉	lu[oynt;
+爐	lu[oynt;
+鲁	lu[qgjf;
+魯	lu[qgjf;
+葎	lv[atvh;
+缕	lv[xovg;
+縷	lv[xovg;
+蕾	lw[aflf;
+藟	lw[alll;
+肋	lw[eln;
+儡	lw[wlll;
+沦	ly[iwxn;
+淪	ly[iwxn;
+抡	ly[rwxn;
+掄	ly[rwxn;
+仑	ly[wxb;
+侖	ly[wxb;
+论	ly[ywxn;
+論	ly[ywxn;
+蒌	lz[aovf;
+蔞	lz[aovf;
+蝼	lz[jovg;
+螻	lz[jovg;
+娄	lz[ovf;
+婁	lz[ovf;
+镂	lz[qovg;
+鏤	lz[qovg;
+驀	ma[ajdc;
+蟆	ma[jajd;
+蚂	ma[jcg;
+螞	ma[jcg;
+抿	mb[rnan;
+茅	mc[acbt;
+茂	mc[adnt;	100%
+茆	mc[aqtb;
+芼	mc[atfn;
+耄	mc[ftxn;
+泖	mc[iqtb;
+冒	mc[jhf;	99%
+荬	md[anud;
+蕒	md[anud;
+脉	md[eyni;	95%
+脈	md[eyni;	95%
+萌	mg[ajef;	100%
+瞢	mg[alph;
+甍	mg[alpn;
+蒙	mg[apge;
+茫	mh[aiyn;
+芒	mh[aynb;
+蟒	mh[jada;
+觅	mi[emqb;
+覓	mi[emqb;
+脒	mi[eoy;
+泌	mi[intt;	100%
+嘧	mi[kpnm;
+迷	mi[opi;
+敉	mi[oty;
+米	mi[oyty;
+鞔	mj[afqq;
+颟	mj[agmm;
+顢	mj[agmm;
+蔓	mj[ajlc;	50%
+螨	mj[jagw;
+蟎	mj[jagw;
+熳	mj[ojlc;
+鳗	mj[qgjc;
+鰻	mj[qgjc;
+蓂	mk[apju;
+茗	mk[aqkf;
+明	mk[jeg;
+腼	mm[edmd;
+靦	mm[edmd;
+藐	mn[aeeq;
+苗	mn[alf;
+鹋	mn[alqg;
+鶓	mn[alqg;
+眇	mn[hitt;
+庙	mn[ymd;
+廟	mn[ymd;
+茉	mo[agsu;
+蓦	mo[ajdc;
+摹	mo[ajdr;
+莫	mo[ajdu;	100%
+蘑	mo[aysd;
+膜	mo[eajd;
+镆	mo[qajd;
+鏌	mo[qajd;
+蔑	mp[aldt;
+苜	mu[ahf;	100%
+墓	mu[ajdf;
+幕	mu[ajdh;	100%
+暮	mu[ajdj;
+募	mu[ajdl;
+慕	mu[ajdn;
+钼	mu[qhg;
+鉬	mu[qhg;
+亩	mu[ylf;
+畝	mu[ylf;	100%
+莓	mw[atxu;
+煤	mw[oafs;
+某	mz[afsu;
+鍪	mz[cbtq;
+肭	na[emwy;
+您	nb[wqin;
+脑	nc[eybh;
+腦	nc[eybh;
+挠	nc[ratq;
+撓	nc[ratq;	100%
+萘	nd[adfi;
+艿	nd[aeb;
+鼐	nd[ehnn;
+乃	nd[etn;	100%
+薿	ni[axth;
+腻	ni[eafm;
+膩	ni[eafm;
+坭	ni[fnxn;
+霓	ni[fvqb;
+泥	ni[inxn;
+逆	ni[ubtp;
+伲	ni[wnxn;
+你	ni[wqiy;
+倪	ni[wvqn;
+萳	nj[afmf;
+腩	nj[efmf;
+苧	nk[apgf;
+廿	nm[aghg;
+蔫	nm[agho;	100%
+菍	nm[awyn;
+念	nm[wynn;
+茑	nn[aqyg;
+蔦	nn[aqyg;
+脲	nn[eniy;
+糯	no[ofdj;
+孽	np[awnb;
+蘖	np[awns;
+拗	nq[rxln;	39%
+暖	nr[jefc;	100%
+侬	ns[wpey;
+儂	ns[wpey;
+钕	nv[qvg;
+釹	nv[qvg;
+藕	ou[adiy;
+瓯	ou[aqgn;
+甌	ou[aqgn;
+殴	ou[aqmc;
+毆	ou[aqmc;	100%
+鸥	ou[aqqg;
+鷗	ou[aqqg;
+欧	ou[aqqw;
+歐	ou[aqqw;
+葩	pa[arcb;
+榀	pb[skkk;
+泡	pc[iqnn;
+咆	pc[kqnn;
+炮	pc[oqnn;	99%
+庖	pc[yqnv;
+蒎	pd[aire;
+蓬	pg[atdp;
+胖	ph[eufh;	99%
+膀	ph[eupy;	18%
+庞	ph[ydxv;
+龐	ph[ydxv;
+苤	pi[agig;
+匹	pi[aqv;
+脾	pi[ertf;
+圮	pi[fnn;
+鲏	pi[qghc;
+批	pi[rxxn;
+枇	pi[sxxn;
+庀	pi[yxv;
+苹	pk[aguh;
+蘋	pk[aguh;	99%
+萍	pk[aigh;
+鲆	pk[qggh;
+鮃	pk[qggh;
+胼	pm[euah;
+翩	pm[ynmn;
+薸	pn[aisi;
+叵	po[akd;	100%
+粕	po[org;
+迫	po[rpd;	99%
+丿	pp[ttll;
+莆	pu[agey;
+蒲	pu[aigy;
+葡	pu[aqgy;
+菩	pu[aukf;
+胚	pw[egig;
+勤	qb[akgl;
+芹	qb[arj;
+芩	qb[awyn;
+揿	qb[rqqw;
+撳	qb[rqqw;
+侵	qb[wvpc;
+禽	qb[wybc;
+衾	qb[wyne;
+期	qi[adwe;	99%
+綦	qi[adwi;
+其	qi[adwu;	99%
+欺	qi[adww;
+七	qi[agn;
+萋	qi[agvv;
+葺	qi[akbf;
+蕲	qi[aujr;
+荠	qi[ayjj;	65%
+薺	qi[ayjj;	65%
+脐	qi[eyjh;
+臍	qi[eyjh;
+蜞	qi[jadw;
+鲯	qi[qgaw;
+鳍	qi[qgfj;
+鰭	qi[qgfj;
+气	qi[rnb;
+氣	qi[rnb;
+桤	qi[smnn;
+榿	qi[smnn;
+杞	qi[snn;
+苘	qk[amkf;
+檾	qk[amkf;
+擎	qk[aqkr;	100%
+磬	qk[fnmd;
+罄	qk[fnmm;
+蜻	qk[jgeg;
+晴	qk[jgeg;
+鲭	qk[qgge;
+鯖	qk[qgge;
+蔷	ql[afuk;
+薔	ql[afuk;
+腔	ql[epwa;
+呛	ql[kwbn;
+嗆	ql[kwbn;
+炝	ql[owbn;
+熗	ql[owbn;
+锖	ql[qgeg;
+錆	ql[qgeg;
+抢	ql[rwbn;
+搶	ql[rwbn;	100%
+枪	ql[swbn;
+芡	qm[aqwu;
+茜	qm[asf;	80%
+芊	qm[atfj;
+蒨	qm[awge;
+肷	qm[eqwy;
+膁	qm[eqwy;
+钳	qm[qafg;
+鉗	qm[qafg;
+鞘	qn[afie;
+巧	qn[agnn;
+荞	qn[atdj;
+蕎	qn[atdj;
+翘	qn[atgn;
+翹	qn[atgn;
+茴	qp[alkf;
+切	qp[avn;
+且	qp[egd;	100%
+锲	qp[qdhd;
+鍥	qp[qdhd;
+鞧	qq[afug;
+萩	qq[atou;
+裘	qq[fiye;
+求	qq[fiyi;
+逑	qq[fiyp;
+颧	qr[akkm;
+顴	qr[akkm;
+荃	qr[awgf;
+劝	qr[cln;
+勸	qr[cln;
+铨	qr[qwgg;
+銓	qr[qwgg;
+诠	qr[ywgg;
+詮	qr[ywgg;
+邛	qs[abh;
+跫	qs[amyh;
+蛩	qs[amyj;
+銎	qs[amyq;
+茕	qs[apnf;
+煢	qs[apnf;
+鹊	qt[ajqg;
+鵲	qt[ajqg;	100%
+悫	qt[fpmn;
+愨	qt[fpmn;
+炔	qt[onwy;
+缺	qt[rmnw;
+区	qu[aqi;	99%
+區	qu[aqi;	99%
+胠	qu[efcy;
+朐	qu[eqkg;
+蛆	qu[jegg;	100%
+組	qu[xegg;
+葜	qx[adhd;
+逡	qy[cwtp;
+扰	rc[rdnn;	0%
+擾	rc[rdnn;
+惹	re[adkn;
+爇	re[afwo;
+荏	rf[awtf;
+仞	rf[wvyy;
+仍	rg[wen;
+蘘	rh[ayke;
+壤	rh[fyke;
+禳	rh[pyye;
+儴	rh[wyke;
+苒	rj[amff;
+鄀	ro[adkb;
+若	ro[adkf;	99%
+蒻	ro[axuu;
+堧	rr[fdmd;
+茸	rs[abf;	100%
+戎	rs[ade;
+荣	rs[apsu;	0%
+榮	rs[apsu;
+蓉	rs[apwk;
+熔	rs[opwk;
+榕	rs[spwk;
+蓐	ru[adff;
+薷	ru[afdj;
+茹	ru[avkf;
+乳	ru[ebnn;
+颥	ru[fdmm;
+顬	ru[fdmm;
+蠕	ru[jfdj;
+缛	ru[xdff;
+縟	ru[xdff;
+蕤	rv[aetg;
+芮	rv[amwu;	100%
+蕊	rv[annn;
+鞣	rz[afcs;
+糅	rz[ocbs;
+萨	sa[abut;
+薩	sa[abut;
+靸	sa[afey;
+脎	sa[eqsy;
+臊	sc[ekks;
+鳋	sc[qgcj;
+鰠	sc[qgcj;
+腮	sd[elny;
+斯	si[adwr;
+汜	si[inn;
+蛳	si[jjgh;
+螄	si[jjgh;
+散	sj[aety;
+糁	sj[ocde;	42%
+糝	sj[ocde;
+蓑	so[ayke;
+索	so[fpxi;
+蒜	sr[afii;
+菘	ss[aswc;
+蔌	su[agkw;
+苏	su[alwu;
+蘇	su[alwu;
+荽	sv[aevf;
+绥	sv[xevg;
+綏	sv[xevg;
+荪	sy[abiu;
+蓀	sy[abiu;
+噀	sy[knnw;
+薮	sz[aovt;
+藪	sz[aovt;
+螋	sz[jvhc;
+锼	sz[qvhc;
+鎪	sz[qvhc;
+她	ta[vbn;	100%
+他	ta[wbn;	100%
+萄	tc[aqrm;
+苔	td[ackf;
+薹	td[afkf;
+胎	td[eckg;
+肽	td[edyy;
+忒	te[ani;	23%
+螣	te[eudj;
+藤	tg[aeui;
+腾	tg[eudc;
+騰	tg[eudc;
+滕	tg[eudi;
+縢	tg[eudi;
+膛	th[eipf;
+塘	th[fyvk;
+糖	th[oyvk;
+倘	th[wimk;
+傥	th[wipq;
+儻	th[wipq;
+鳀	ti[qgjh;
+缇	ti[xjgh;
+緹	ti[xjgh;
+菼	tj[aoou;
+钽	tj[qjgg;
+鉭	tj[qjgg;
+贪	tj[wynm;
+貪	tj[wynm;
+莛	tk[atfp;
+葶	tk[ayps;
+烃	tk[ocag;
+烴	tk[ocag;
+停	tk[wyps;
+黇	tm[amwk;
+腆	tm[emaw;
+苕	tn[avkf;
+蓧	tn[awht;
+佻	tn[wiqn;
+萚	to[arch;
+驼	to[cpxn;
+駝	to[cpxn;
+脫	to[eukq;
+脱	to[eukq;
+妥	to[evf;
+坨	to[fpxn;
+沱	to[ipxn;
+沲	to[itbn;
+托	to[rtan;
+拖	to[rtbn;
+柁	to[spxn;
+佗	to[wpxn;
+煓	tr[omdj;
+茼	ts[amgk;
+熥	ts[ocep;
+烔	ts[omgk;
+葖	tu[apwd;
+菟	tu[aqky;
+荼	tu[awtu;	100%
+腯	tu[erfh;
+堍	tu[fqky;
+钍	tu[qfg;
+釷	tu[qfg;
+途	tu[wtpi;
+肫	ty[egbn;
+莎	ua[aiit;	99%
+傻	ua[wtlt;
+芍	uc[aqyu;
+烧	uc[oatq;
+燒	uc[oatq;
+甚	uf[adwn;
+莘	uf[auj;	19%
+胂	uf[ejhh;
+沈	uf[ipqn;	99%
+肾	uf[jcef;
+腎	uf[jcef;
+鲹	uf[qgce;
+绅	uf[xjhh;
+紳	uf[xjhh;
+胜	ug[etgg;
+勝	ug[etgg;
+声	ug[fnr;
+聲	ug[fnr;
+垧	uh[ftmk;
+伤	uh[wtln;
+傷	uh[wtln;
+蓍	ui[aftj;
+莳	ui[ajfu;
+蒔	ui[ajfu;
+贳	ui[anmu;
+貰	ui[anmu;
+世	ui[anv;
+豕	ui[egty;
+史	ui[kqi;
+炻	ui[odg;
+氏	ui[qav;	99%
+食	ui[wyve;	96%
+繹	ui[xcfh;
+苫	uj[ahkf;
+膳	uj[eudk;
+膻	uj[eylg;
+煽	uj[oynn;
+扇	uj[ynnd;
+甩	uk[env;
+蒴	uo[aube;
+烁	uo[oqiy;
+槊	uo[ubts;
+菽	uu[ahic;
+薯	uu[alfj;
+蔬	uu[anhq;	100%
+腧	uu[ewgj;
+墅	uu[jfcf;
+数	uu[ovty;	99%
+數	uu[ovty;	99%
+舜	uy[epqh;
+受	uz[epcu;
+炸	va[othf;
+扎	va[rnn;	93%
+紮	va[rnn;	93%
+挓	va[rpta;
+劄	va[snn;
+札	va[snn;
+钊	vc[qjh;
+釗	vc[qjh;
+找	vc[rat;
+膪	vd[eupk;
+著	ve[aftj;	93%
+斟	vf[adwf;
+蓁	vf[adwt;
+朕	vf[eudy;
+针	vf[qfh;
+針	vf[qfh;
+镇	vf[qfhw;
+鎮	vf[qfhw;
+揕	vf[radn;
+枕	vf[spqn;
+缜	vf[xfhw;
+蒸	vg[abio;
+钲	vg[qghg;
+鉦	vg[qghg;
+争	vg[qvhj;
+爭	vg[qvhj;
+胀	vh[etay;
+仉	vh[wmn;
+芷	vi[ahf;
+芝	vi[apu;
+肢	vi[efcy;
+膣	vi[epwf;
+胝	vi[eqay;
+脂	vi[exjg;
+蛭	vi[jgcf;
+旨	vi[xjf;
+蘸	vj[asgo;	100%
+粘	vj[ohkg;	36%
+庄	vl[yfd;	2%
+莊	vl[yfd;
+茁	vo[abmj;
+晫	vo[jhjh;
+灼	vo[oqyy;
+专	vr[fnyi;
+專	vr[fnyi;
+撰	vr[rnnw;
+茽	vs[awkh;
+肿	vs[ekhh;
+腫	vs[ekhh;
+苎	vu[apgf;
+茱	vu[ariu;
+助	vu[egln;
+逐	vu[epi;
+烛	vu[ojy;
+燭	vu[ojy;
+炷	vu[oygg;
+柷	vu[skqn;
+侏	vu[wriy;
+主	vu[ygd;
+萑	vv[awyf;
+赘	vv[gqtm;
+贅	vv[gqtm;
+追	vv[wnnp;	100%
+缀	vv[xccc;
+綴	vv[xccc;	100%
+荮	vz[axfu;
+葤	vz[axfu;
+肘	vz[efy;
+皱	vz[qvhc;
+皺	vz[qvhc;
+诌	vz[yqvg;
+腽	wa[ejlg;
+膃	wa[ejlg;
+蛙	wa[jffg;
+挖	wa[rpwn;
+芠	wf[ayu;
+蓊	wg[awcn;
+蕹	wg[ayxy;
+旺	wh[jgg;
+亡	wh[ynv;	99%
+妄	wh[ynvf;
+菀	wj[apqb;
+芄	wj[avyu;
+腕	wj[epqb;
+顽	wj[fqdm;
+琬	wj[gpqb;
+涴	wj[ipqb;
+烷	wj[opfq;
+挽	wj[rqkq;
+椀	wj[spqb;
+婉	wj[vpqb;
+卧	wo[ahnh;
+臥	wo[ahnh;
+莴	wo[akmw;
+萵	wo[akmw;
+肟	wo[efnn;
+芜	wu[afqb;
+蕪	wu[afqb;
+芴	wu[aqrr;
+鹀	wu[awwg;
+巫	wu[awwi;
+覡	wu[awwq;
+无	wu[fqv;
+無	wu[fqv;	100%
+雾	wu[ftlb;
+霧	wu[ftlb;
+焐	wu[ogkg;
+务	wu[tlb;
+務	wu[tlb;
+毋	wu[xde;
+庑	wu[yfqv;
+廡	wu[yfqv;
+葳	ww[adgt;
+薳	ww[afkp;
+苇	ww[afnh;
+葦	ww[afnh;
+蔚	ww[anff;	99%
+薇	ww[atmt;
+萎	ww[atvf;
+未	ww[fii;
+韪	ww[jghh;
+韙	ww[jghh;
+炜	ww[ofnh;
+煨	ww[olge;
+鲔	ww[qgde;
+鮪	ww[qgde;
+娓	ww[vntn;
+伪	ww[wyly;
+偽	ww[wyly;
+薪	xb[ausr;
+炘	xb[orh;
+熙	xi[ah;	100%
+昔	xi[ajf;	100%
+薂	xi[aryt;
+菥	xi[asrj;
+蓰	xi[athh;
+觋	xi[awwq;
+膝	xi[eswi;
+奚	xi[exdu;
+喺	xi[kwti;
+烯	xi[oqdh;
+熄	xi[othn;
+熒	xk[apou;
+荇	xk[atfh;
+腥	xk[ejtg;
+煋	xk[ojtg;
+铏	xk[qgaj;
+项	xl[admy;
+項	xl[admy;
+葙	xl[ashf;
+𢛖	xl[awbn;
+巷	xl[awnb;	96%
+芗	xl[axtr;
+薌	xl[axtr;
+苋	xm[amqb;
+莧	xm[amqb;
+藓	xm[aqgd;
+蘚	xm[aqgd;
+莶	xm[awgi;
+限	xm[bvey;
+县	xm[egcu;	99%
+縣	xm[egcu;	99%
+腺	xm[eriy;
+现	xm[gmqn;
+現	xm[gmqn;
+显	xm[jogf;
+顯	xm[jogf;
+秈	xm[omh;
+籼	xm[omh;
+禒	xm[pyxe;
+伣	xm[wmqn;
+伭	xm[wyxy;
+讞	xm[yfmd;
+藠	xn[arrr;
+萧	xn[avij;
+蕭	xn[avij;
+敩	xn[ipbt;
+蟏	xn[javj;
+肴	xn[qdef;
+鞋	xp[afff;	100%
+邪	xp[ahtb;	99%
+胁	xp[elwy;
+脅	xp[elwy;
+蟹	xp[qevj;
+偕	xp[wxxr;	100%
+谐	xp[yxxr;
+諧	xp[yxxr;
+休	xq[wsy;	100%
+俢	xq[wtet;
+萱	xr[apgg;
+悬	xr[egcn;
+懸	xr[egcn;
+煊	xr[opgg;
+炫	xr[oyxy;	100%
+芎	xs[axb;
+胸	xs[eqqb;
+兄	xs[kqb;
+靴	xt[afwx;
+茓	xt[apwu;
+薛	xt[awnu;
+鳕	xt[qgfv;
+鱈	xt[qgfv;
+蓿	xu[apwj;
+蓄	xu[ayxl;
+媭	xu[edmv;
+须	xu[edmy;
+須	xu[edmy;
+垿	xu[fycb;
+糈	xu[onhe;
+叙	xu[wtcy;
+敘	xu[wtcy;
+诩	xu[yng;
+詡	xu[yng;
+匣	xx[alk;	100%
+煆	xx[owdc;
+荀	xy[aqjf;
+薰	xy[atgo;
+蕁	xy[avfu;
+荨	xy[avfu;	17%
+埙	xy[fkmy;
+塤	xy[fkmy;
+鲟	xy[qgvf;
+鱘	xy[qgvf;
+旬	xy[qjd;
+牙	ya[ahte;
+鸦	ya[ahtg;
+鴉	ya[ahtg;
+迓	ya[ahtp;
+雅	ya[ahty;
+荫	yb[abef;
+蔭	yb[abef;
+鄞	yb[akgb;
+茵	yb[aldu;
+茚	yb[aqgb;
+垠	yb[fvey;
+氤	yb[rnld;
+瘾	yb[ubqn;
+癮	yb[ubqn;
+引	yb[xhh;
+靿	yc[afxl;
+尧	yc[atgq;
+堯	yc[atgq;
+药	yc[axqy;
+鹞	yc[ermg;
+鷂	yc[ermg;
+繇	yc[ermi;	51%
+遥	yc[ermp;
+遙	yc[ermp;
+腰	yc[esvg;
+珧	yc[giqn;
+爚	yc[owga;
+钥	yc[qeg;	91%
+鑰	yc[qeg;	91%
+腋	ye[eywy;
+邺	ye[ogbh;
+鄴	ye[ogbh;
+业	ye[ogd;	0%
+業	ye[ogd;	100%
+烨	ye[owxf;
+燁	ye[owxf;
+鞅	yh[afmd;
+炀	yh[onrt;
+煬	yh[onrt;
+弋	yi[agny;
+荑	yi[agxw;	80%
+颐	yi[ahkm;
+頤	yi[ahkm;
+艺	yi[anb;
+藝	yi[anb;
+苡	yi[anyw;
+医	yi[atdi;
+醫	yi[atdi;
+翳	yi[atdn;
+薏	yi[aujn;
+胰	yi[egxw;
+臆	yi[eujn;
+熠	yi[onrg;
+簃	yi[ttqq;
+亿	yi[wnn;
+億	yi[wnn;
+仡	yi[wtnn;
+伊	yi[wvtt;
+依	yi[wyey;
+仪	yi[wyqy;
+儀	yi[wyqy;
+绎	yi[xcfh;
+彝	yi[xgoa;
+郾	yj[ajvb;
+匽	yj[ajvd;
+燕	yj[auko;
+腌	yj[edjn;	22%
+醃	yj[edjn;
+胭	yj[eldy;
+蝘	yj[jajv;
+烟	yj[oldy;
+煙	yj[oldy;
+焰	yj[oqvg;
+谳	yj[yfmd;
+英	yk[amdu;
+茔	yk[apff;
+塋	yk[apff;
+莹	yk[apgy;
+瑩	yk[apgy;
+荥	yk[apiu;
+滎	yk[apiu;	53%
+萤	yk[apju;
+螢	yk[apju;
+营	yk[apkk;
+營	yk[apkk;
+荧	yk[apou;
+蓥	yk[apqf;
+鎣	yk[apqf;
+莺	yk[apqg;
+鶯	yk[apqg;
+萦	yk[apxi;
+縈	yk[apxi;
+盈	yk[eclf;
+媵	yk[eudv;
+鹰	yk[ywwg;
+鷹	yk[ywwg;
+芫	yr[afqb;	48%
+苑	yr[aqbb;	100%
+鸢	yr[aqyg;
+鳶	yr[aqyg;
+爰	yr[eftc;
+元	yr[fqb;
+鼋	yr[fqkn;
+黿	yr[fqkn;
+远	yr[fqpv;
+遠	yr[fqpv;
+用	ys[etnh;
+臃	ys[eyxy;
+蛹	ys[jceh;
+鲬	ys[qgce;
+藥	yt[axqy;	0%
+刖	yt[ejh;
+蓣	yu[acbm;
+蕷	yu[acbm;
+芋	yu[agfj;
+彧	yu[akge;
+薁	yu[atmd;
+萸	yu[avwu;
+遹	yu[cbtp;
+腴	yu[evwy;
+堉	yu[fyce;
+蝓	yu[jwgj;
+燏	yu[ocbk;
+鱼	yu[qgf;
+魚	yu[qgf;
+纡	yu[xgfh;
+紆	yu[xgfh;
+芸	yy[afcu;	100%
+蕴	yy[axjl;	90%
+蘊	yy[axjl;	90%
+允	yy[cqb;
+孕	yy[ebf;
+运	yy[fcpi;
+運	yy[fcpi;
+煴	yy[ojlg;
+䒴	yz[adef;
+莸	yz[aqtn;
+蕕	yz[aqtn;
+莠	yz[ateb;
+莜	yz[awht;
+铕	yz[qdeg;
+銪	yz[qdeg;
+匝	za[amhk;
+藻	zc[aiks;
+灶	zc[ofg;
+糟	zc[ogmj;
+燥	zc[okks;
+皂	zc[rab;
+赜	ze[ahkm;
+賾	ze[ahkm;
+髒	zh[eyfg;
+脏	zh[eyfg;
+孜	zi[bty;
+籽	zi[obg;
+资	zi[uqwm;
+資	zi[uqwm;
+恣	zi[uqwn;
+孳	zi[uxxb;
+姊	zi[vtnt;
+糌	zj[othj;
+胙	zo[ethf;
+座	zo[ywwf;
+腙	zs[epfi;
+粽	zs[opfi;	100%
+偬	zs[wqrn;
+傯	zs[wqrn;
+组	zu[xegg;
+卒	zu[ywwf;	98%
+揍	zz[rdwd;
