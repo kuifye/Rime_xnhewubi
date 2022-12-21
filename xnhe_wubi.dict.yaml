@@ -9,6 +9,10 @@ use_preset_vocabulary: true
 import_tables:
   - xnhe_wubi_charExtend
   - xnhe_wubi_phrase
+  - xnhe_wubi_simple_phrase
+  - luna_pinyin_poetry
+  - luna_pinyin_game
+  - luna_pinyin_website
 ...
 
 #——————————————————————————单字——————————————————————————
@@ -375,6 +379,8 @@ import_tables:
 壕	hc[fype;
 还	hd[gipi;	98%
 還	hd[gipi;	98%
+还	hr[gipi;	2%
+還	hr[gipi;	2%
 鞨	he[afjn;
 菏	he[aisk;
 荷	he[awsk;

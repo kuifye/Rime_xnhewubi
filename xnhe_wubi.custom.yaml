@@ -1,19 +1,30 @@
 patch:
+  __include: grammar:/hant
   __include: easy_en:/patch
   easy_en/enable_sentence: false
-  __include: grammar:/hant
+  easy_en/initial_quality: 0.1
 
+#扩充符号
+  punctuator/import_preset: default_symbols #設定符號表，這裏直接導入預設的
+  recognizer/patterns/punct:  '^\\([0-9]0?|[A-Za-z]+)$'
 #扩充字库
-  # 'luna_pinyin/dictionary': luna_pinyin_extended
-  # 'luna_pinyin/prism': double_pinyin_flypy
-  
+  # luna_pinyin/dictionary: luna_pinyin_extended
+  # luna_pinyin/prism: luna_pinyin_extended
+  'engine/translators/@before 0':
+    lua_translator@time_translator
+  'engine/processors/@before 2':
+    lua_processor@pairs_processor
+  'engine/processors/@before 1':
+    lua_processor@select_character_processor
+  'engine/processors/@before 0':
+    lua_processor@auto_select_processor
+
   switches/@next:
     name: emoji_suggestion
-    reset: 1
-    states: [ "🈚️️\uFE0E", "🈶️️\uFE0F" ]
+    states: [ "無🙂", "有😎" ]
   'engine/filters/@before 0':
     simplifier@emoji_suggestion
   emoji_suggestion:
     opencc_config: emoji.json
     option_name: emoji_suggestion
-    #tips: all
+    tips: all

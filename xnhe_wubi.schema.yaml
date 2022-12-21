@@ -25,6 +25,7 @@ switches:
     reset: 1
     states: [ 漢字, 汉字 ]
   - name: ascii_punct
+    reset: 0
     states: [ 。，, ．， ]
 
 engine:
@@ -44,6 +45,7 @@ engine:
     - punct_segmentor
     - fallback_segmentor
   translators:
+    - echo_translator
     - punct_translator
     - table_translator@custom_phrase           #custom_phrase段编码
     - table_translator@xnhe_wubi_code          #表示调用小鹤五笔简码
@@ -53,16 +55,21 @@ engine:
     - table_translator@luna_pinyin_simp_chaizi #u开启拆字模式
     - reverse_lookup_translator                #五笔86反查翻译器
     - script_translator                        #小鹤字词主翻译器
-    #- script_translator@luna_pinyin            #luna_pinyin字典的小鹤双拼翻译器
+    - table_translator@xnhe_wubi_table         #表示调用小鹤五笔定长简码
+    - script_translator@luna_pinyin            #luna_pinyin字典的小鹤双拼翻译器
   filters:
     - simplifier
+    - simplifier@simplification
     - uniquifier
     - cjk_minifier
     - reverse_lookup_filter@reverse_lookup_xnhe_wubi             #反查提示滤镜如无需要可关闭
 
 speller:
-  alphabet: zyxwvutsrqponmlkjihgfedcba
-  delimiter: " '"
+  alphabet: 'abcdefghijklmnopqrstuvwxyz'
+  delimiter: " `"
+  auto_select: true
+  length_limit: 16
+  # max_code_length: 5
   algebra:
 #小鹤五笔快捷编码
     - derive/^(..[[]..).(.;)$/$1$2/
@@ -71,17 +78,21 @@ speller:
     - derive/^(..[[]..).+(;)$/$1/
     - derive/^(..[[].).+(.;)$/$1$2/
     - derive/^(..[[].).+(;)$/$1$2/
-    - fuzz/^(..[[]).+(;)$/$1$2/
+    - derive/^(..[[]).+(;)$/$1$2/
+# #五笔第二位可使用z万能引导码
+#     - derive/^(..[[].).(.?;)$/$1z$2/
 #去除引导码、分号分词
     - xform/[[]//
     - xform/;//
-    #- abbrev/^(.).+$/$1/
+    - abbrev/^(.).+$/$1/
 
 key_binder:
   import_preset: default
   bindings:
     - { when: has_menu, accept: semicolon, send: 2 }            # 第2候选键(;)
     - { when: has_menu, accept: apostrophe, send: 3 }           # 第3候选键(')
+    - { when: has_menu, accept: "Tab", send: 3}                 # 第3候选键(tab)
+    - { when: always, accept: "Control+j", toggle: simplification } #切换简繁
 
 translator:                      #小鹤字词翻译器
   dictionary: xnhe_wubi
@@ -90,21 +101,39 @@ translator:                      #小鹤字词翻译器
   enable_charset_filter: true    #字符集过滤，低重形码用不着
   initial_quality: 1
   contextual_suggestions: true
+  max_homophones: 7
+  max_homographs: 7
 
-# luna_pinyin:
-#   dictionary: luna_pinyin
-#   user_dict: luna_pinyin
-#   prism: double_pinyin_flypy
-#   initial_quality: 0.9
+luna_pinyin:
+  dictionary: luna_pinyin
+  user_dict: luna_pinyin
+  prism: double_pinyin_flypy
+  initial_quality: 0.9
+  contextual_suggestions: true
+  max_homophones: 7
+  max_homographs: 7
+
+xnhe_wubi_table:
+  dictionary: xnhe_wubi_table
+  user_dict: xnhe_wubi_table
+  prism: xnhe_wubi_table
+  enable_completion: true
+  enable_sentence: false
+  enable_charset_filter: true    #字符集过滤，低重形码用不着
+  contextual_suggestions: true
+  enable_encoder: true
+  encode_commit_history: true
+  initial_quality: 0.6
+  max_homophones: 7
+  max_homographs: 7
 
 # abc_segmentor:
 #   extra_tags:
 #     - reverse_lookup
-  
+
 reverse_lookup_xnhe_wubi:      #小鹤五笔编码反查滤镜
   dictionary: reverse_lookup_xnhe_wubi
   comment_format:
-    #- xform/^(.....).$/$1/
     - xform/^(..)(.+)$/$1·$2/
 
 reverse_lookup:                  #五笔86反查翻译器
@@ -184,11 +213,10 @@ xnhe_wubi_codeU:                 #大字集汉字
   dictionary: ""
   user_dict: xnhe_wubi_codeU
   db_class: stabledb
+  prism: reverse_lookup_xnhe_wubi
   enable_completion: true
   enable_sentence: false
   initial_quality: 0.4
-  # comment_format:
-  #   - xform/.*//
 
 luna_pinyin_simp_chaizi:         #u拆字模式
   dictionary: ""
@@ -198,15 +226,28 @@ luna_pinyin_simp_chaizi:         #u拆字模式
   enable_sentence: false
   initial_quality: 10
 
+simplification:
+  #  opencc_config: s2t.json  # 简 -> 繁
+  #  opencc_config: s2hk.json  # 繁 -> 香港
+  #  opencc_config: t2s.json   # 繁 -> 简
+  #  opencc_config: t2tw.json  # 繁 -> 台湾
+  opencc_config: t2hk.json  # 繁 -> 香港
+  #  opencc_config: s2tw.json  # 簡 -> 臺灣標準
+  #  opencc_config: s2twp.json  # 簡 -> 臺灣片語
+  option_name: simplification
+
 punctuator:
-  import_preset: default_symbols #設定符號表，這裏直接導入預設的
+  import_preset: default #設定符號表，這裏直接導入預設的
 
 recognizer:
-  import_preset: default
   patterns:
+    email: "^[a-z][-_.0-9a-z]*@.*$"
+    uppercase: "^[A-Z][-_+.'0-9A-Za-z]*$"
+    url: "^(www[.]|https?:|ftp:|mailto:).*$"
     reverse_lookup: "^o[a-z]*$"  #使用o激活反查，如有其他需要可以自行更改
 
 grammar:
-  import_preset: default
   language:
     zh-hant-t-essay-bgc
+  collocation_max_length: 2
+  collocation_min_length: 2

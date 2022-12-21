@@ -11360,6 +11360,7 @@
 䗻	jpjtvb
 𠲵	jpkfcl
 啑	jpkgvh
+啑	tikgvh
 踕	jpkhgh
 踥	jpkhuv
 𠯙	jpkiyy
@@ -22196,6 +22197,7 @@
 𧧶	tuywty
 藬	tvabkm
 蓷	tvarwy
+𪨇	tvgqkm
 蘈	tvatmm
 聉	tvbbmh
 𦖦	tvbdmy
@@ -24000,7 +24002,7 @@
 聀	vibat
 阯	vibhg
 𢾫	vibhgc
-ㄓ	vibhm
+ㄓ	vibhg
 隲	vibitc
 𨻆	vibrhm
 䎺	vibrmj

@@ -48,9 +48,16 @@ engine:
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
   delimiter: " '"
+  algebra:
+#五笔z万能引导码
+    - derive/^(.....).$/$1z/
+    - derive/^(....).(.?)$/$1z$2/
+    - derive/^(...).(..?)$/$1z$2/
+    - derive/^(..).(...?)$/$1z$2/
 
 translator:
   dictionary: reverse_lookup_xnhe_wubi
+  prism: reverse_lookup_xnhe_wubi
 
 punctuator:
   import_preset: default_symbols
