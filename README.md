@@ -36,7 +36,7 @@ o开启五笔反查模式，如：百odj
 
 杉	us 矢	ut 仕	uw 紗	ux
 
-子	zb 既	jvq 和	ht 妈	mv
+子	zb 既	jv 和	ht 妈	mv
 
 阿	ab 哀	ay 峨	em 及	je 幽 yx
 
