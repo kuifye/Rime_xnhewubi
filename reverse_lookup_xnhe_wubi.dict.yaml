@@ -1091,7 +1091,7 @@ use_preset_vocabulary: true
 畴	izl
 酬	izs
 稠	iztk
-愁	iztu
+愁	izto
 筹	izt
 踌	izk
 綢	izx
@@ -1894,7 +1894,7 @@ use_preset_vocabulary: true
 珐	fag
 琺	fag
 髪	fad
-帆	fjmh
+帆	fjmy
 番	fjtl
 蕃	boal
 幡	fjml
@@ -2212,13 +2212,13 @@ use_preset_vocabulary: true
 橄	gjst
 擀	gjr
 鳡	gjq
-干	qmf
+干	gjfh
 旰	gjj
 𢧀	gjjfa
 绀	gjx
 淦	gji
 紺	gjx
-幹	qmf
+幹	gjfh
 赣	gju
 贛	gju
 冈	ghmi
@@ -2629,7 +2629,7 @@ use_preset_vocabulary: true
 蔊	hjaf
 闞	hju
 汉	hji
-汗	hjii
+汗	hjif
 旱	hjj
 垾	hjff
 捍	hjrr
@@ -3284,7 +3284,7 @@ use_preset_vocabulary: true
 枧	jmsm
 茧	jmaj
 柬	jmg
-俭	jmwwg
+俭	jmwg
 捡	jmrg
 笕	jmtm
 梘	jmsm
@@ -3306,7 +3306,7 @@ use_preset_vocabulary: true
 戬	jmga
 碱	jmd
 戩	jmga
-儉	jmwwg
+儉	jmwg
 翦	jmun
 撿	jmrg
 檢	jms
@@ -3328,7 +3328,7 @@ use_preset_vocabulary: true
 荐	jma
 贱	jmmt
 牮	jmwa
-剑	jmwg
+剑	jmwj
 健	jmwv
 舰	jmte
 涧	jmig
@@ -3345,7 +3345,7 @@ use_preset_vocabulary: true
 踐	jmk
 踺	jmkp
 箭	jmtj
-劍	jmwg
+劍	jmwj
 澗	jmig
 薦	jma
 鍵	jmq
@@ -3360,10 +3360,10 @@ use_preset_vocabulary: true
 将	jluy
 姜	jluv
 豇	jlg
-浆	jluqi
+浆	jluq
 將	jluy
 僵	jlw
-漿	jluqi
+漿	jluq
 薑	jluv
 缰	jlxg
 鳉	jlq
@@ -3507,7 +3507,7 @@ use_preset_vocabulary: true
 骱	jpm
 誡	jpy
 巾	jbm
-斤	jbrh
+斤	jbrt
 今	jbw
 钅	obqt
 金	jbq
@@ -4255,7 +4255,7 @@ use_preset_vocabulary: true
 羸	lwy
 罍	lwll
 鐳	lwq
-耒	lwdi
+耒	lwdii
 诔	lwyy
 垒	lwc
 誄	lwyy
@@ -5011,7 +5011,7 @@ use_preset_vocabulary: true
 鶥	mwnq
 黴	mwf
 每	mwt
-美	emu
+美	mwu
 浼	mwiq
 媄	mwvd
 镁	mwq
@@ -6703,7 +6703,7 @@ use_preset_vocabulary: true
 事	uig
 侍	uiwf
 饰	uiq
-试	uiyy
+试	uiyg
 视	uipq
 拭	uirg
 贳	uiau
@@ -6721,7 +6721,7 @@ use_preset_vocabulary: true
 貰	uiau
 弑	uiqs
 释	uito
-谥	uiyy
+谥	uiyl
 媞	tiv
 勢	uirv
 軾	uil
@@ -6729,12 +6729,12 @@ use_preset_vocabulary: true
 筮	uitw
 鈰	uiqy
 飾	uiq
-試	uiyy
+試	uiyg
 誓	uiry
 適	uit
 奭	uiddj
 噬	uikw
-諡	uiyy
+諡	uiyl
 螫	uifo
 釋	uito
 笶	uitt
@@ -6814,7 +6814,7 @@ use_preset_vocabulary: true
 數	uuo
 澍	uuif
 樹	uusf
-刷	uxn
+刷	uxnj
 唰	uxk
 耍	uxd
 衰	cvy
@@ -7099,7 +7099,7 @@ use_preset_vocabulary: true
 覃	qbs
 榃	tjsf
 锬	tjqy
-痰	tjui
+痰	tjuo
 谭	tjy
 談	tjyo
 潭	tjij
@@ -7488,7 +7488,7 @@ use_preset_vocabulary: true
 王	whgt
 网	whm
 枉	whs
-罔	whmy
+罔	whmn
 往	wht
 𩧺	juck
 惘	whn
@@ -7841,7 +7841,7 @@ use_preset_vocabulary: true
 仙	xmw
 先	xmtq
 纤	qmxf
-氙	xmrj
+氙	xmrm
 忺	xmn
 秈	xmo
 祆	xmpd
@@ -8303,7 +8303,7 @@ use_preset_vocabulary: true
 衙	yat
 哑	yakg
 啞	yakg
-痖	yau
+痖	yaug
 雅	yaa
 瘂	yau
 轧	gal
@@ -8553,7 +8553,7 @@ use_preset_vocabulary: true
 欹	qid
 銥	yiqe
 漪	yiiq
-噫	yiku
+噫	yikun
 醫	yia
 黟	yilq
 仪	yiwq
@@ -8611,10 +8611,10 @@ use_preset_vocabulary: true
 抑	yir
 杙	yisy
 呓	yikn
-邑	yikk
+邑	yikb
 佚	yiwr
 役	yitm
-译	yiyh
+译	yiyf
 易	yij
 峄	yimm
 佾	yiwe
@@ -8627,8 +8627,8 @@ use_preset_vocabulary: true
 奕	yiyd
 疫	yium
 羿	yinj
-挹	yirn
-益	yiuf
+挹	yirk
+益	yiuw
 浥	yiik
 悒	yink
 谊	yiyp
@@ -8673,7 +8673,7 @@ use_preset_vocabulary: true
 鎰	yiqw
 癔	yiun
 繹	yixx
-譯	yiyh
+譯	yiyf
 議	yiyy
 囈	yikn
 懿	yifn
@@ -8987,7 +8987,7 @@ use_preset_vocabulary: true
 堉	yufe
 悆	uuwt
 欲	yuww
-阈	yuuu
+阈	yuuk
 淯	yuie
 谕	yuywg
 馭	yucy
@@ -9012,7 +9012,7 @@ use_preset_vocabulary: true
 遹	yucp
 豫	yucq
 蕷	yuam
-閾	yuuu
+閾	yuuk
 閼	eeu
 諭	yuywg
 燏	yuok
@@ -9527,8 +9527,8 @@ use_preset_vocabulary: true
 躑	vikhu
 夂	obty
 止	vih
-只	vikwu
-旨	vixx
+只	vikw
+旨	vixj
 址	vifh
 芷	viah
 纸	vixa
@@ -20595,7 +20595,7 @@ use_preset_vocabulary: true
 鏣	uuqyao
 㶖	uuiwho
 虪	uuhamo
-㕞	uxnmhc
+㕞	uxn
 誜	uxycwt
 㲤	ukykgn
 縗	cvxyke

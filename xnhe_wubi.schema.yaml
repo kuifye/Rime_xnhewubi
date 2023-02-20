@@ -123,7 +123,7 @@ xnhe_wubi_table:
   contextual_suggestions: true
   enable_encoder: true
   encode_commit_history: true
-  initial_quality: 0.6
+  initial_quality: 0.9
   max_homophones: 7
   max_homographs: 7
 
@@ -229,9 +229,9 @@ luna_pinyin_simp_chaizi:         #u拆字模式
 simplification:
   #  opencc_config: s2t.json  # 简 -> 繁
   #  opencc_config: s2hk.json  # 繁 -> 香港
-  #  opencc_config: t2s.json   # 繁 -> 简
+  opencc_config: t2s.json   # 繁 -> 简
   #  opencc_config: t2tw.json  # 繁 -> 台湾
-  opencc_config: t2hk.json  # 繁 -> 香港
+  #  opencc_config: t2hk.json  # 繁 -> 香港
   #  opencc_config: s2tw.json  # 簡 -> 臺灣標準
   #  opencc_config: s2twp.json  # 簡 -> 臺灣片語
   option_name: simplification

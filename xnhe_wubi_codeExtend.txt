@@ -24,7 +24,6 @@
 杉	us	20
 矢	ut	20
 仕	uw	20
-紗	ux	20
 子	zb	20
 既	jv	20
 和	ht	20
@@ -42,8 +41,21 @@
 翼	ynl	20
 圓	yl	20
 字	zp	20
+現實	xmup	20
+實際上	upjiuh	20
 
 #词组
+列寧	ln	7
+←	zo	7
+→	yz	7
+首先	ux	7
+我國	wg	7
+教育	jy	7
+政府	vf	7
+環境	hj	7
+真理	vl	7
+粘貼	nt	7
+虛擬	xn	7
 市場	ui	7
 ok	ok	9
 理由	ly	7
@@ -81,7 +93,8 @@ ok	ok	9
 哈哈	hh	7
 足夠	zg	7
 成功	ig	7
-卡了	kl	7
+快乐	kl	7
+卡了	kl	6
 有空	yk	7
 用處	yi	7
 晚安	wa	7
@@ -174,7 +187,7 @@ ap	ap
 爾安	ea
 爾達	ed
 爾夫	ef
-爾岡	eg
+俄國	eg
 二村	ec
 二季	ej
 羅素	ls
@@ -290,7 +303,8 @@ ap	ap
 明天	mt
 明顯	mx
 美色	ms
-名著	mv
+民主	mv	6
+名著	mv	5
 沒能	mn
 名人	mr
 年薪	nx
@@ -335,7 +349,8 @@ ap	ap
 騷氣	sq
 三天	st
 思考	sk
-什麼	um
+什麼	um	6
+上面	um	6
 霎那	un
 事情	uq
 沙灘	ut
@@ -348,7 +363,8 @@ ap	ap
 拖欠	tq
 拖沓	tt
 臺灣	tw
-他鄉	tx
+妥協	tx	6
+他鄉	tx	5
 颱風	tf
 微博	wb
 往常	wi
@@ -361,7 +377,8 @@ ap	ap
 我去	wq	5
 外人	wr
 外孫	ws
-事實	uu
+試試	uu	6
+事實	uu	5
 問題	wt	6
 外套	wt	5
 外形	wx
@@ -460,13 +477,17 @@ rp	rp
 老哥	lg	7
 組織	zv	7
 自我	zw	7
+求求	qq	7
 youtube	yout	20
 Twitter	twi	20
 Twitter	twit	20
-bilibili	bili	7
-哔哩哔哩	bili	6
 Facebook	faceb	20
 google	goog	20
+chatGPT	chatg	10
+bilibili	bili	7
+哔哩哔哩	bili	6
+百度	bddu	11
+baidu	bddu	10
 
 #特殊簡碼2
 √	ogz	11
@@ -489,15 +510,31 @@ $	omy	10
 &	oand	10
 /	of	10
 →	ojt	10
+←	ojt	9
+↑	ojt	8
+↓	ojt	7
+↕	ojt	6
+↖	ojt	5
+↗	ojt	4
+↙	ojt	3
+↘	ojt	2
 ……	os	10
 ·	ojg	10
 ·	odm	10
 ：“	ow	10
+¿	ow	9
+？	ow	8
 “	oz	10
-”	oc	9
+”	oc	10
 【】	oy	10
+♪	oyy	10
+【	oyq	10
+】	oyh	10
 +	ojx	10
-·	od	10
+、	od	10
+·	od	9
+=	od	8
+·	odm	10
 =	odg	10
 、	ody	10
 ↑	oujt	10
@@ -513,10 +550,13 @@ $	omy	10
 ）	oj	10
 〔	on	10
 〕	om	10
+[]	ok	6
 [	okq	10
 ]	okh	10
+{}	ovk	10
 {	ovkq	10
 }	ovkh	10
+《》	ou	6
 《	ouq	10
 》	ouh	10
 
@@ -528,10 +568,18 @@ cmd_calc	cmdc	10
 cmd_cleanmgr	cmdcl	10
 cmd_cleanmgr	cmdlj	10
 cmd_cmd.exe	cmd	10
-cmd_Shutdown -s -t 600	cmdsd	10
-cmd_Shutdown -a 600	cmdsda	10
-cmd_Shutdown -r -t 600	cmdrb	10
-cmd_Shutdown	cmdsd	9
+cmd关机：	cmdsd	10
+cmd关机：	cmdsda	10
+cmd重启：	cmdrb	10
+cmd重启：	cmdiq	10
+cmd_Shutdown -s -t 600	cmdsd	9
+cmd_Shutdown -a 600	cmdsda	9
+cmd_Shutdown -r -t 600	cmdrb	9
+cmd_Shutdown -r -t 600	cmdiq	9
+cmd关机：	cmdsd	9
+cmd关机：	cmdgj	9
+cmd_Shutdown	cmdsd	8
+cmd_Shutdown	cmdgj	8
 cmd_devmgmt.msc	cmddev	10
 cmd_desk.cpl	cmddesk	10
 cmd_eudcedit	cmdeu	10
@@ -675,7 +723,7 @@ cmd_control		cmdkvmb	10
 看出	ki	10
 可能	kn	10
 恐怖	kb	10
-恐怕	kp	10
+可怕	kp	10
 况且	kq	10
 昆明	km	10
 浪费	lf	10
@@ -732,8 +780,7 @@ cmd_control		cmdkvmb	10
 日期	rq	10
 容易	ry	10
 洒脱	st	10
-上面	um	10
-什么	sm	10
+掃碼	sm	10
 似乎	sh	10
 顺便	ub	10
 思考	sk	10
@@ -798,43 +845,43 @@ cmd_control		cmdkvmb	10
 昨天	zt	10
 
 #叠字
-众	uzzz	10
-厽	uzzz	10
-刕	uzzz	10
-㐂	uzzz	10
-孨	uzzz	10
-品	uzzz	10
-姦	uzzz	10
-森	uzzz	10
-歮	uzzz	10
-鑫	uzzz	10
-淼	uzzz	10
-尛	uzzz	10
-焱	uzzz	10
-垚	uzzz	10
-壵	uzzz	10
-惢	uzzz	10
-𡘙	uzzz	10
-猋	uzzz	10
-犇	uzzz	10
-掱	uzzz	10
-舙	uzzz	10
-晶	uzzz	10
-瞐	uzzz	10
-𤾩	uzzz	10
-皛	uzzz	10
-畾	uzzz	10
-磊	uzzz	10
-毳	uzzz	10
-鱻	uzzz	10
-驫	uzzz	10
-骉	uzzz	10
-羴	uzzz	10
-矗	uzzz	10
-䆐	uzzz	10
-飝	uzzz	10
-龘	uzzz	10
-麤	uzzz	10
+众	ozzz	10
+厽	ozzz	10
+刕	ozzz	10
+㐂	ozzz	10
+孨	ozzz	10
+品	ozzz	10
+姦	ozzz	10
+森	ozzz	10
+歮	ozzz	10
+鑫	ozzz	10
+淼	ozzz	10
+尛	ozzz	10
+焱	ozzz	10
+垚	ozzz	10
+壵	ozzz	10
+惢	ozzz	10
+𡘙	ozzz	10
+猋	ozzz	10
+犇	ozzz	10
+掱	ozzz	10
+舙	ozzz	10
+晶	ozzz	10
+瞐	ozzz	10
+𤾩	ozzz	10
+皛	ozzz	10
+畾	ozzz	10
+磊	ozzz	10
+毳	ozzz	10
+鱻	ozzz	10
+驫	ozzz	10
+骉	ozzz	10
+羴	ozzz	10
+矗	ozzz	10
+䆐	ozzz	10
+飝	ozzz	10
+龘	ozzz	10
+麤	ozzz	10
 
 #部首簡碼
 宀	obpy	8
@@ -38863,7 +38910,8 @@ T裇	txu	9
 招聘會	vph	6	
 看得出	kdi	6	
 驅動器	qdq	6	
-也許會	yxh	6	
+也許會	yxh	6
+不可能	bkn	6
 低下頭	dxt	6	
 談戀愛	tla	6	
 生產商	uiu	6	
@@ -39129,7 +39177,7 @@ adc	adc	6
 在這次	zvc	6	
 玫瑰花	mgh	6	
 中國網	vgw	6	
-貿易型	myx	6	
+免疫學	myx	6	
 上班族	ubz	6	
 紫外線	zwx	6	
 收藏到	ucd	6	
@@ -39166,7 +39214,7 @@ adc	adc	6
 反過來	fgl	6	
 更方便	gfb	6	
 必然會	brh	6	
-所有者	syv	6	
+私有制	syv	6	
 皮膚癬	pfx	6	
 人與人	ryr	6	
 辦公桌	bgv	6	
@@ -39476,7 +39524,6 @@ adc	adc	6
 副標題	fbt	6	
 白血病	bxb	6	
 做廣告	zgg	6	
-解調器	jtq	6	
 分類法	flf	6	
 發信站	fxv	6	
 存儲器	ciq	6	
@@ -39673,7 +39720,7 @@ adc	adc	6
 硬盤版	ypb	6	
 新能源	xny	6	
 價格比	jgb	6	
-技術性	jux	6	
+解釋學	jux	6	
 參考書	cku	6	
 邊走邊	bzb	6	
 主要目	vym	6	
@@ -42185,7 +42232,7 @@ rip	rip	6
 美滋滋	mzz	6	
 禮品盒	lph	6	
 拉爾夫	lef	6	
-口腔科	kqk	6	
+看情況	kqk	6	
 卡片機	kpj	6	
 接入點	jrd	6	
 混合機	hhj	6	
@@ -42268,7 +42315,7 @@ rip	rip	6
 依存度	ycd	6	
 研討班	ytb	6	
 他還想	thx	6	
-思路	slu	6	
+私立	slu	6	
 司馬光	smg	6	
 石頭砸	utz	6	
 生长	ugv	6	
@@ -47662,7 +47709,7 @@ pay	pay	6
 鹿鳴村	lmc	6	
 陸穀日	lgr	6	
 顱耳角	lej	6	
-盧西奧	lxa	6	
+朗西埃	lxa	6	
 盧恩熊	lex	6	
 盧春如	lir	6	
 龍祥烤	lxk	6	
@@ -47702,14 +47749,13 @@ pay	pay	6
 困難呢	knn	6	
 鯤鵬源	kpy	6	
 鯤鵬鞋	kpx	6	
-錕巾烤	kjk	6	
+錕斤烤	kjk	6	
 醌肟腙	kwz	6	
 昆明臥	kmw	6	
 昆明凱	kmk	6	
 昆明楓	kmf	6	
 昆明春	kmi	6	
 昆侖餐	klc	6	
-昆昆河	kkh	6	
 昆倉山	kcu	6	
 坤月安	kya	6	
 坤角兒	kje	6	
@@ -49095,4 +49141,5 @@ apt	apt	6
 阿爾汗	aeh	6	
 阿黨鎮	adv	6	
 阿城區	aiq	6	
-阿昌族	aiz	6	
+阿昌族	aiz	6
+神經質	ujv	6

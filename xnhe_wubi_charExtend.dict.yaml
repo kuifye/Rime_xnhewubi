@@ -46,6 +46,7 @@ yyds	yyds[;
 
 不確定	bu[gii; tq[dqeh; dk[pghu;
 為什麼	ww[ylyi; fu[wfh; me[xnny;
+實際	up[; ji[by;
 
 #不完整五笔码，防止出现分词错误
 #例如 yiyi-意义 有时候会被识别成义，因此需要将 yi[yqi; 缩减成 yi[yq;
@@ -254,6 +255,7 @@ yyds	yyds[;
 
 #容易出錯的單字
 
+菈	la[au;
 𠫬	yz[c;
 犬	qr[dt;
 那	na[;	99%
@@ -22350,7 +22352,6 @@ yyds	yyds[;
 䖃	la[;
 𩋷	la[;
 𥀥	la[;
-菈	la[;
 䏀	la[;
 𩨉	la[;
 𩤲	la[;
