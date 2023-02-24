@@ -44,7 +44,7 @@ o开启五笔反查模式，如：百odj
 
 详细编码见xnhe_wubi_codeExtend.txt及xnhe_wubi_charExtend.dict.yaml
 
-# 一级简码（数字固定在次候选位）
+# 一级简码
 
 啊	a
 阿	a
