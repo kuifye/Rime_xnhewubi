@@ -47,6 +47,7 @@ yyds	yyds[;
 不確定	bu[gii; tq[dqeh; dk[pghu;
 為什麼	ww[ylyi; fu[wfh; me[xnny;
 實際	up[; ji[by;
+研究	yjqj[;
 
 #不完整五笔码，防止出现分词错误
 #例如 yiyi-意义 有时候会被识别成义，因此需要将 yi[yqi; 缩减成 yi[yq;
@@ -1765,7 +1766,8 @@ yyds	yyds[;
 钆	ga[q;
 釓	ga[q;
 旮	ga[v;
-伽	ga[wlk;	80%
+伽	jx[wlk;	80%
+伽	ga[wlk;	20%
 杲	gc[j;
 嚆	gc[k;
 翯	gc[ny;

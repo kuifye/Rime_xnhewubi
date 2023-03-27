@@ -5112,7 +5112,7 @@ T裇	txu	9
 頂	dksy	8
 丁	dksg	8
 丁	dksgh	8
-丁	dksh	8
+丁	dksh	7
 酊	dksg	8
 酊	dksgs	8
 酊	dkss	8
@@ -32366,12 +32366,12 @@ T裇	txu	9
 伟	wwwf	8
 伟	wwwfnh	8
 伟	wwwfh	8
-伟	wwwh	8
+伟	wwwh	7
 偉	wwwfn	8
 偉	wwwf	8
 偉	wwwfnh	8
 偉	wwwfh	8
-偉	wwwh	8
+偉	wwwh	6
 偎	wwwl	8
 偎	wwwlg	8
 偎	wwwlge	8
@@ -37949,10 +37949,8 @@ T裇	txu	9
 作	zowh	8
 作	zowthf	8
 作	zowtf	8
-作	zowf	8
 坐	zoww	8
 坐	zowwf	8
-坐	zowf	8
 坐	zowwff	8
 躜	zrkh	8
 躜	zrkht	8
@@ -38305,6 +38303,7 @@ T裇	txu	9
 一切都	yqd	6	
 一會兒	yhe	6	
 這一點	vyd	6	
+這樣的	vyd	5
 大多數	ddu	6	
 女孩子	nhz	6	
 留言板	lyb	6	
@@ -47859,7 +47858,6 @@ pay	pay	6
 凱特瑞	ktr	6	
 開瓢兒	kpe	6	
 開夥倉	khc	6	
-開關開	kgk	6	
 卡茲納	kzn	6	
 卡死在	ksz	6	
 卡皮管	kpg	6	

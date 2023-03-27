@@ -2202,6 +2202,7 @@
 墾	kfv	9
 硁	kgd	9
 坑	kgf	9
+吭	kgk	9
 鏗	kgq	9
 慷	khn	9
 炕	kho	9
@@ -2603,6 +2604,7 @@
 磊	lwd	9
 雷	lwf	9
 淚	lwi	9
+嘞	lwk	9
 累	lwl	9
 類	lwo	9
 鐳	lwq	9
@@ -6544,7 +6546,7 @@
 洄	hvil	8
 蛔	hvjg	8
 蟪	hvjgj	8
-譏	jiyn	8
+譏	jiyn	7
 計	jiyf	8
 伎	jiwc	8
 忌	jinn	8
@@ -7137,6 +7139,9 @@
 痰	tjuo	9
 汗	hjif	9
 抹	mors	9
+爮	pcrn	9
+伽	jxwk	9
+麂	jiyn	9
 
 #五碼單字簡碼
 秕	bitxx	9
@@ -7153,7 +7158,6 @@
 跽	jikhn	9
 墼	jigjf	9
 鱾	jiqgn	9
-麂	jiynj	9
 齎	jifww	9
 猄	jkqty	9
 靬	jmaff	9
@@ -7471,7 +7475,7 @@
 撥打	boda	9
 波動	bods	9
 勃然	borj	9
-博成	boig	9
+撥成	boig	7
 博寧	bonk	9
 博人	borf	9
 博坦	botj	9
@@ -7986,14 +7990,14 @@
 大海	dahd	9
 大駭	dahd	9
 大家	dajx	10
-大劍	dajm	10
+搭建	dajm	10
 大快	dakk	9
 大量	dall	9
-大率	dauk	9
+大帥	dauk	9
 大門	damf	9
-大南	danj	9
+大難	danj	9
 大能	dang	10
-大鳥	dann	9
+打鳥	dann	9
 大怒	danu	9
 大票	dapn	9
 大嚷	darh	9
@@ -9283,7 +9287,7 @@
 灰克	hvke	9
 灰色	hvse	10
 灰線	hvxm	9
-灰杏	hvxk	9
+彗星	hvxk	9
 灰雲	hvyy	9
 恢複	hvfu	9
 恢廓	hvko	9
@@ -9291,6 +9295,7 @@
 輝騰	hvtg	9
 麾節	hvjp	9
 徽標	hvbn	9
+會長	hvvh	10
 徽章	hvvh	9
 回吧	hvba	9
 回拜	hvbd	9
@@ -9309,10 +9314,10 @@
 回複	hvfu	9
 回光	hvgl	9
 回紇	hvge	9
-回話	hvhx	10
+繪畫	hvhx	10
 回家	hvjx	10
 回疆	hvjl	9
-回京	hvjk	9
+回敬	hvjk	9
 回絕	hvjt	9
 回來	hvld	10
 回路	hvlu	10
@@ -10873,8 +10878,8 @@
 那種	navs	10
 納夫	nafu	9
 納賢	naxm	9
-鈉泵	nabg	9
-乃弟	nddi	9
+鈉泵	nabg	7
+你到底	nddi	9
 奶汁	ndvi	9
 奈斯	ndsi	9
 男女	njnv	9
@@ -10883,8 +10888,8 @@
 南孚	njfu	9
 南來	njld	9
 南涼	njll	9
-南林	njlb	9
-南呂	njlv	9
+南林	njlb	7
+南呂	njlv	7
 喃喃自語	njnjziyu	9
 難道	njdc	9
 難分	njff	9
@@ -11165,7 +11170,6 @@
 奇詭	qigv	7
 其對	qidv	9
 其反	qifj	9
-其实	qiui	10
 其實	qiui	10
 其他	qita	9
 其外	qiwd	9
@@ -12152,6 +12156,7 @@
 塔康	takh	9
 拓賽	tosd	9
 榻前	taqm	9
+太高	tdgc	10
 抬高	tdgc	9
 抬扛	tdkh	9
 苔岑	tdcf	9
@@ -13277,8 +13282,8 @@
 燕趙	yjdn	9
 驗關	yjgr	9
 驗證	yjvg	10
-羊城	yhig	9
-羊坊	yhfh	9
+養成	yhig	9
+洋房	yhfh	9
 羊角	yhjn	9
 羊奶	yhnd	9
 羊年	yhnm	9
@@ -13605,7 +13610,7 @@
 嬰兒車	ykerie	9
 櫻唇	ykiy	9
 櫻雪	ykxt	9
-迎茬	ykia	9
+硬茬	ykia	9
 迎面	ykmm	10
 迎親	ykqb	9
 迎喜	ykxi	9
@@ -14281,7 +14286,7 @@
 皺起	vzqi	9
 縐片	vzpm	9
 朱唇	vuiy	9
-朱記	vuji	9
+主機	vuji	9
 朱軍	vujy	9
 朱蒙	vumg	9
 朱七	vuqi	9
@@ -14721,6 +14726,9 @@ B細胞	bxibc	11
 俄烏	eewu	11
 允准	yyvy	11
 衆包	vsbc	11
+按错	anco	11
+伽達默爾	jxdamoer	10
+伽達默爾	jdme	10
 chatGPT	chatgpt	10
 雨露均沾	yljv	10
 雨露均沾	yulujyvj	10
@@ -14731,6 +14739,7 @@ chatGPT	chatgpt	10
 免疫系統	myxt	11
 知識產權	vuiq	11
 巴枯寧	bknk	11
+很長	hfih	11
 用进废退	yjft	11
 光芒四射	gmsu	11
 難以察覺	nyij	11
@@ -14738,7 +14747,10 @@ chatGPT	chatgpt	10
 羊腸小道	yixd	11
 目不暇接	mbxj	11
 參天古木	ctgm	11
+全身	qruf	11
 大分裂	dflp	11
+獅子	uizi	11
+一段	yidr	11
 客體小a	ktxa	11
 小客體a	xkta	11
 大美人	dmrf	11
@@ -14751,3 +14763,4 @@ chatGPT	chatgpt	10
 交界地區	jjdq	11
 將信將疑	jxjy	11
 訓民正音	xmvy	11
+威望	wwwh	11

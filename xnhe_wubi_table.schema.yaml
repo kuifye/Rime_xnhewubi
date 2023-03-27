@@ -77,6 +77,8 @@ key_binder:
     - { when: has_menu, accept: apostrophe, send: 3 }           # 第3候选键(')
     - { when: has_menu, accept: "Tab", send: 3}                 # 第3候选键(tab)
     - { when: always, accept: "Control+j", toggle: simplification } #切换简繁
+    - { when: composing, accept: "-", send: Page_Up}
+    - { when: composing, accept: equal, send: Page_Down}
 
 translator:                      #小鹤字词翻译器
   dictionary: xnhe_wubi_table
