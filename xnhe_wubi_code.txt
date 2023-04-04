@@ -14,6 +14,84 @@
 #該編碼方案用於補全編碼提示
 #
 # no comment
+#us和it
+茌	ita	9
+恥	itb	9
+馳	itc	9
+胣	ite	9
+赤	itf	9
+豉	itg	9
+齒	ith	9
+池	iti	9
+匙	itj	9
+叱	itk	9
+遲	itn	9
+熾	ito	9
+沉	itp	9
+飭	itq	9
+持	itr	9
+笞	itt	9
+癡	itu	9
+媸	itv	9
+侈	itw	9
+弛	itx	9
+墀	itfh	8
+敕	itgt	8
+眵	ithq	8
+螭	itjc	8
+踟	itkh	8
+尺	itny	8
+瓻	itqd	8
+魑	itrq	8
+斥	itry	8
+彳	itth	8
+瘛	itud	8
+啻	itup	8
+佁	itwc	8
+傺	itwi	8
+翤	itkn	8
+蔬	usa	9
+陎	usb	9
+隃	usb	9
+戍	usd	9
+腧	use	9
+束	usg	9
+叔	ush	9
+淑	usi	9
+暑	usj	9
+輸	usl	9
+贖	usm	9
+書	usn	9
+數	uso	9
+抒	usr	9
+術	uss	9
+黍	ust	9
+鼠	usv	9
+舒	usw	9
+紓	usx	9
+熟	usy	9
+殊	usgq	8
+澍	usif	8
+漱	usig	8
+沭	usis	8
+豎	usjc	8
+墅	usjf	8
+屬	usnt	8
+婌	usvc	8
+毹	uswg	8
+悆	uswt	8
+孰	usyb	8
+属	usny	8
+梳	ussy	8
+薯	usaj	8
+曙	usjj	8
+述	ussp	8
+樹	ussf	8
+樹	ussc	8
+摅	usrn	8
+蜀	uslj	9
+豎	usju	9
+庶	usyo	8
 #一級簡碼
 啊	a	9
 阿	a	8
@@ -75,7 +153,9 @@
 ㄈ	f	6
 ㄉ	d	6
 ㄊ	t	6
+ㄩㄝ	t	5
 ㄋ	n	6
+ㄧㄠ	n	5
 ㄌ	l	6
 ㄍ	g	6
 ㄎ	k	6
@@ -96,7 +176,8 @@
 ㄚ	a	6
 ㄛ	o	6
 ㄜ	e	6
-ㄝ	p	6
+ㄧㄝ	e	5
+ㄝ	p	5
 ㄞ	d	6
 ㄟ	w	6
 ㄠ	c	6
@@ -108,9 +189,9 @@
 ㄦ	er	6
 ㄪ	v	6
 ㄫ	en	6
-ㄬ	n	6
+ㄬ	n	4
 ㆬ	m	5
-ㄯ	n	5
+ㄯ	n	3
 ㆭ	ng	5
 ˉ	yi	6
 ˊ	er	6
@@ -804,7 +885,7 @@
 槽	ccs	9
 艚	cct	9
 蔡	cda	9
-采	cde	9
+彩	cde	9
 裁	cdf	9
 睬	cdh	9
 踩	cdk	9
@@ -3073,6 +3154,7 @@
 萍	pka	9
 坪	pkf	9
 玶	pkg	9
+秤	pkt	9
 泙	pki	9
 洴	pki	9
 涄	pki	9
@@ -5292,7 +5374,10 @@
 屐	jinc	8
 饑	jiqn	8
 箕	jita	8
-籍	jitd	8
+籍	jitd	5
+箕	jitw	8
+籍	jitj	8
+稽	jitd	8
 笈	jite	8
 笄	jitg	8
 嵇	jitm	8
@@ -6408,7 +6493,7 @@
 鵓	bofpb	8
 膊	boef	8
 馞	botb	8
-彩	cdes	8
+采	cdes	8
 粲	cjhq	8
 傖	chwb	8
 噌	cgkj	8
@@ -6840,6 +6925,7 @@
 薯	uuaj	8
 曙	uujj	8
 述	uusp	8
+庶	uuyo	8
 樹	uusf	8
 樹	uusc	8
 摅	uurn	8
@@ -6854,6 +6940,7 @@
 潭	tjij	8
 笤	tntv	8
 蜿	wjjb	8
+杉	ujse	8
 薇	wwat	8
 隗	kvbr	8
 聭	kvbrq	8
@@ -7945,7 +8032,6 @@
 呆板	ddbj	9
 呆丸	ddwj	9
 呆滯	ddvi	9
-歹怪	ddgk	9
 代溝	ddgh	9
 代購	ddgz	9
 代駕	ddjx	9
@@ -9336,7 +9422,8 @@
 機器	jiqi	10
 機巧	jiqn	9
 即使	jiui	9
-機臺	jitd	7
+幾臺	jitd	6
+祭台	jitd	7
 機位	jiww	10
 機務	jiwu	9
 機制	jivi	10
@@ -9423,7 +9510,7 @@
 記憶	jiyi	10
 記住	jivu	10
 祭司	jisi	9
-祭壇	jitj	9
+祭壇	jitj	7
 寄居	jiju	9
 寄了	jile	10
 跡象	jixl	10
@@ -10063,7 +10150,7 @@
 垮掉	kxdn	9
 跨過	kxgo	9
 蒯因	kkyb	9
-快了	kkle	9
+快乐	kkle	9
 快胃	kkww	9
 快慰	kkww	9
 寬片	krpm	9
@@ -11514,8 +11601,8 @@
 山青	ujqk	9
 山區	ujqu	9
 山雀	ujqt	9
-山色	ujse	9
-山石	ujui	10
+山色	ujse	7
+山石	ujui	9
 山水	ujuv	9
 實踐是檢驗真理的唯一標準	ujuv	7
 山塘	ujth	9
@@ -11524,8 +11611,9 @@
 山羊	ujyh	9
 山莊	ujvl	10
 杉樹	ujuu	9
+山東	ujds	11
 煽動	ujds	10
-閃失	ujui	9
+閃失	ujui	10
 閃星	ujxk	9
 閃蒸	ujvg	9
 訕訕	ujuj	9
@@ -11612,7 +11700,7 @@
 深港	ufgh	9
 深航	ufhh	9
 深紅	ufhs	9
-深化	ufhx	9
+神話	ufhx	9
 深井	ufjk	9
 深坑	ufkg	9
 深空	ufks	9
@@ -11866,7 +11954,7 @@
 蜀劉	uulq	9
 蜀門	uumf	9
 蜀凝	uunk	9
-蜀牛	uunq	9
+樞紐	uunq	9
 蜀韻	uuyy	9
 鼠婦	uufu	9
 屬下	uuxx	9
@@ -11874,6 +11962,7 @@
 束縛	uufu	10
 舒服	uufu	11
 豎立	uuli	9
+樹立	uuliu	9
 數據	uuju	7
 數據結構	uujujpgz	9
 數據流	uujulq	9
@@ -11884,7 +11973,8 @@
 樹冠	uugr	9
 樹森	uusf	7
 樹丫	uuya	9
-樹陰	uuyb	9
+樹蔭	uuyb	7
+樹陰	uuyb	6
 刷單	uxdj	9
 耍點	uxdm	9
 衰減	ukjm	9
@@ -14116,7 +14206,8 @@
 只會	vihv	10
 只靠	vikc	9
 只肯	vikf	9
-智能	ving	10
+智能	vingc	10
+只能	ving	10
 只求	viqq	9
 只讓	virh	9
 只是	viui	9
@@ -14570,6 +14661,7 @@ U盤	upj	9
 視差之見	uivj	10
 實戰	uivj	9
 香餑餑	xbbo	10
+哈哈	haha	9
 哈哈哈	hhh	9
 哈哈哈哈	hhhh	9
 红红火火	hhhh	8
@@ -14864,11 +14956,14 @@ tab	tab	1
 阿聯酋	aalmqq	
 阿拉伯	aalabo	
 阿富汗	aafuhj	
-𣴢水	zcuvi	
-𣝓弧	yjhux	
-𣝓絲	yjsix	
-栘𣐿	doyis	
-嫗𡟥	yuquv	
+𣴢水	zcuvi
+𣝓弧	yjhux
+𣝓絲	yjsix
+栘𣐿	doyis
+嫗𡟥	yuquv
+樹枝	uuvis	9
+第十	diui	9
+的士	diuif	9
 第三國際	dsgj	9
 俄亥俄州	ehev	1
 吼啊吼啊	haha	1
@@ -14972,6 +15067,7 @@ tab	tab	1
 熱鍋上的螞蟻	rguy	1
 人心是肉做的	rxud	2
 死馬當活馬醫	smdy	1
+後勤	hzqb	8
 收到收到收到	uzdcuzdcuzdc	
 不管三七二十一	bgsy	1
 婦女能頂半邊天	fnnt	1
