@@ -12,12 +12,16 @@ patch:
   # luna_pinyin/prism: luna_pinyin_extended
   'engine/translators/@before 0':
     lua_translator@time_translator
-  'engine/processors/@before 2':
-    lua_processor@pairs_processor
-  'engine/processors/@before 1':
-    lua_processor@select_character_processor
+  # 'engine/processors/@before 2':
+  #   lua_processor@pairs_processor
   'engine/processors/@before 0':
-    lua_processor@auto_select_processor
+    lua_processor@select_character_processor
+  # 'engine/processors/@before 0':
+  #   lua_processor@auto_select_processor
+  # 'engine/processors/@before 0':
+  #   lua_processor@rm_word_processor
+  # 'engine/filters/@before 0':
+  #   lua_filter@rm_word_filter
 
   switches/@next:
     name: emoji_suggestion

@@ -4,7 +4,7 @@
 schema:
   schema_id: xnhe_wubi
   name: 小鶴五筆音形
-  version: "1.74" 
+  version: "1.8" 
   author:
     - Rime schema by 梨子
   dependencies:
@@ -30,6 +30,7 @@ switches:
 
 engine:
   processors:
+    # - lua_processor@rm_word_processor
     - ascii_composer
     - recognizer
     - key_binder
@@ -55,9 +56,9 @@ engine:
     - table_translator@luna_pinyin_simp_chaizi #u开启拆字模式
     - reverse_lookup_translator                #五笔86反查翻译器
     - script_translator                        #小鹤字词主翻译器
-    - table_translator@xnhe_wubi_table         #表示调用小鹤五笔定长简码
     - script_translator@luna_pinyin            #luna_pinyin字典的小鹤双拼翻译器
   filters:
+    # - lua_filter@rm_word_filter
     - simplifier
     - simplifier@simplification
     - uniquifier
@@ -67,7 +68,7 @@ engine:
 speller:
   alphabet: 'abcdefghijklmnopqrstuvwxyz'
   delimiter: " `"
-  auto_select: true
+  # auto_select: true
   auto_code: 0                   #n码自动上屏，如需关闭请输入0
   length_limit: 99
   # max_code_length: 5
@@ -113,20 +114,6 @@ luna_pinyin:
   prism: double_pinyin_flypy
   initial_quality: 0.9
   contextual_suggestions: true
-  max_homophones: 7
-  max_homographs: 7
-
-xnhe_wubi_table:
-  dictionary: xnhe_wubi_table
-  user_dict: xnhe_wubi_table
-  prism: xnhe_wubi_table
-  enable_completion: true
-  enable_sentence: false
-  enable_charset_filter: true    #字符集过滤，低重形码用不着
-  contextual_suggestions: true
-  enable_encoder: true
-  encode_commit_history: true
-  initial_quality: 0.9
   max_homophones: 7
   max_homographs: 7
 

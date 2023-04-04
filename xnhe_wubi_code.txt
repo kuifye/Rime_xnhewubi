@@ -127,7 +127,7 @@
 ㄧㄥ	k	4
 ㄨㄥ	s	4
 ㄩㄥ	s	4
-
+		
 #二級簡碼		
 吖	aa	9
 昂	ah	9
@@ -532,7 +532,6 @@
 尊	zy	9
 鑽	zr	9
 走	zz	9
-
 #三級簡碼		
 阿	aab	9
 醃	aae	9
@@ -2092,7 +2091,6 @@
 崛	jtm	9
 爝	jto	9
 角	jtq	9
-角	jnq	9
 抉	jtr	9
 桷	jts	9
 決	jtu	9
@@ -4871,8 +4869,7 @@
 鄒	zzq	9
 揍	zzr	9
 諏	zzy	9
-
-#四級簡碼
+#四級簡碼		
 質	virm	9
 比	bixx	9
 吖	aakh	8
@@ -5986,7 +5983,6 @@
 辛	xbuh	7
 歆	xbuw	8
 𤹩	xbuy	8
-歆	xbuw	8
 巷	xlab	8
 𢛖	xlan	8
 熙	xiao	8
@@ -6338,8 +6334,7 @@
 任	rfwt	8
 躍	ytkh	8
 躍	yckh	8
-
-#補充簡碼
+#補充簡碼		
 属	uuny	8
 翔	xlud	8
 桕	jqsg	8
@@ -6353,7 +6348,6 @@
 妄	whyv	8
 蕁	qmaf	8
 芊	qmat	8
-鏇	xrd	9
 焉	yjghg	8
 焉	yjgo	8
 弇	yjwa	8
@@ -6383,7 +6377,6 @@
 鎣	ykaq	8
 庸	ysyh	8
 鏞	ysqh	8
-鱅	ysqg	8
 澭	ysiyx	8
 詠	ysky	8
 用	yseh	8
@@ -6397,7 +6390,6 @@
 崳	yumj	8
 輿	yuwl	8
 堉	yufe	8
-淵	yrih	8
 宰	zdpu	8
 𤌊	zdpo	8
 唕	zcka	8
@@ -6409,7 +6401,7 @@
 蹕	bikh	8
 秕	bitx	8
 萹	bmayn	8
-扁	bmyn	
+扁	bmyn	8
 甂	bmym	8
 颮	bnmq	8
 鉑	boqr	8
@@ -6451,7 +6443,6 @@
 碲	didh	8
 銱	dnqk	8
 鈄	dzqf	8
-鍍	duqc	8
 鍍	duqy	8
 踱	dokh	8
 苊	eeab	8
@@ -6528,13 +6519,10 @@
 滹	huih	8
 滹	huiha	8
 猢	huqe	8
-滸	huif	8
 滬	huiy	8
 昈	hujy	8
 岵	humd	8
-鸌	huqc	8
 華	hxwx	8
-鍰	hrqc	8
 繯	hrxe	8
 喚	hrkm	8
 浣	hriq	8
@@ -6543,7 +6531,6 @@
 虺	hvgq	8
 豗	hvgi	8
 茴	hval	8
-洄	hvil	8
 蛔	hvjg	8
 蟪	hvjgj	8
 譏	jiyn	7
@@ -6556,8 +6543,6 @@
 薺	jiay	8
 繼	jixo	8
 悸	jinb	8
-績	jixg	8
-薊	jiaq	8
 霽	jify	8
 圾	jife	8
 鯽	jiqg	8
@@ -6573,23 +6558,17 @@
 犍	jmtrv	8
 鰹	jmqg	8
 鶼	jmuvog	8
-鶼	jmug	8
-韉	jmaf	8
 鞬	jmafv	8
-繭	jmaj	8
 撿	jmrg	8
-筧	jmtm	8
 剪	jmuej	8
 剪	jmuv	8
 兼	jmuv	7
 鐧	jmqj	8
-戩	jmga	8
 譾	jmyv	8
 謇	jmpy	8
 健	jmwv	8
 鑒	jmjq	8
 耩	jldf	8
-絳	jlxh	8
 犟	jlxj	8
 強	jlxk	8
 劫	jpfl	8
@@ -6598,12 +6577,10 @@
 檞	jpse	8
 斤	jbrt	8
 珒	jbgh	8
-錦	jbqh	8
 饉	jbqg	8
 祲	jbpy	8
 殣	jbgg	8
 荊	jkaj	8
-獍	jkqt	8
 𤜰	jkqt	6
 猄	jkqt	7
 鼱	jkvn	8
@@ -6627,14 +6604,11 @@
 揆	kvrw	8
 喹	kvkf	8
 攔	ljrg	8
-欄	ljsg	8
 讕	ljyg	8
 廊	lhyy	8
-鋃	lhqy	8
 蓢	lhae	8
 塱	lhyf	8
 嫪	lcvn	8
-鸝	ligg	8
 蜊	lijj	8
 薿	niah	8
 菍	npan	8
@@ -6713,24 +6687,18 @@
 赭	vefo	8
 褶	vepu	8
 𫌇	vepu	7
-針	vfqf	8
 鋴	vfqq	8
 瑊	vfgt	8
 臻	vfgd	8
-榛	vfsd	8
 葴	vfat	8
 蓁	vfad	8
 袗	vfpu	8
 圳	vffk	8
 纼	vfxh	8
 鴆	vfpg	8
-鉦	vgqg	8
-錚	vgqh	8
 箏	vgth	8
 正	vggh	8
-症	vgug	8
 症	vguh	8
-諍	vgyh	8
 梔	visb	8
 櫛	visb	7
 稙	vitg	8
@@ -6741,35 +6709,20 @@
 醨	lisc	8
 醨	lisgy	8
 黧	lito	8
-藜	liai	8
 褳	lmpp	8
-鐮	lmqo	8
 鰱	lmqg	8
 𫔀	lmqi	8
-蘞	lmat	8
-瀲	lmit	8
 坽	lkfw	8
 苓	lkaw	8
-嚕	lukj	8
 廬	luyy	8
-鸕	luhg	8
-轤	lulh	8
-櫨	lush	8
-顱	luhm	8
-櫓	lusj	8
-鑥	luqj	8
 路	lukh	8
 箓	lutv	8
 鑾	lryq	8
-孿	lryb	8
 孌	lryv	8
 欒	lrys	8
-攣	lryr	8
 鸞	lryg	8
-臠	lryw	8
 圇	lylw	8
 邏	lolq	8
-玀	loqt	8
 圙	ltld	8
 罵	makc	8
 埋	mdff	8
@@ -6777,12 +6730,10 @@
 乇	mctv	8
 毛	mctv	7
 赧	njfo	8
-撚	nmrn	8
 輦	nmfl	8
 墊	nmfn	8
 砮	nuvd	8
 甌	ouan	8
-鷗	ouag	8
 排	pdrd	8
 徘	pdtd	8
 叛	pjuc	8
@@ -6795,7 +6746,6 @@
 丕	pigi	8
 丕	pigig	8
 批	pirx	8
-劈	pinv	8
 郫	pirb	8
 鲏	piqg	8
 圮	pifn	8
@@ -6816,7 +6766,6 @@
 萁	qiaa	8
 藄	qiaad	8
 跂	qikc	8
-蹊	qikh	8
 跂	qikhf	8
 祺	qipw	8
 蘄	qiar	8
@@ -6854,7 +6803,6 @@
 勍	qkyl	8
 氰	qkrn	8
 檾	qkak	8
-慶	qkyd	8
 磬	qkfd	8
 煢	qsaf	8
 蚯	qqjr	8
@@ -6864,7 +6812,6 @@
 鴝	quqg	8
 蠼	qujc	8
 全	qrwg	8
-輇	qrlg	8
 埆	qtfe	8
 讓	rhyh	8
 稔	rftn	8
@@ -6877,10 +6824,7 @@
 掃	scrv	8
 色	seqc	8
 煞	uaqo	8
-鯊	uaig	8
 裟	uait	8
-裟	uaie	8
-賞	uhim	8
 麝	ueyf	8
 哂	ufks	8
 諗	ufyn	8
@@ -6892,7 +6836,6 @@
 市	uiym	8
 勢	uirv	8
 筮	uitw	8
-奭	uidd	8
 梳	uusy	8
 薯	uuaj	8
 曙	uujj	8
@@ -6916,7 +6859,6 @@
 聭	kvbrq	8
 廆	gvyrq	8
 艉	wwten	8
-鮪	wwqg	8
 喂	wwkl	8
 蝟	wwqe	8
 魏	wwtc	8
@@ -6966,27 +6908,22 @@
 孅	xmvww	8
 癇	xmus	8
 冼	xmuq	8
-險	xmbg	8
 陷	xmbv	8
 獫	xmqt	8
-蘚	xmad	8
 餡	xmqn	8
 薌	xlax	8
 葙	xlah	8
-鑲	xlqe	8
 餉	xlqn	8
 饗	xlxe	8
 筱	xntt	8
 笑	xntd	8
 蟏	xnjj	8
-囂	xnkk	8
 皛	xnrr	8
 娎	xnrv	8
 偕	xpwr	8
 諧	xpyr	8
 褻	xpye	8
 瀉	xpip	8
-瀉	xpig	8
 瀣	xpig	7
 薤	xpag	8
 躞	xpkh	8
@@ -7006,17 +6943,13 @@
 俁	yuwkg	8
 贄	virvy	8
 贄	virm	7
-摯	virr	8
 桎	visf	8
 鷙	virg	8
-擲	virb	8
 梽	visn	8
 騭	vibc	8
 眾	vsww	8
 謅	vzyv	8
 籀	vztl	8
-櫧	vusj	8
-瀦	vuij	8
 妝	vlug	8
 茲	ziux	8
 倪	niwq	8
@@ -7026,7 +6959,6 @@
 嗌	aikl	8
 棓	bhsk	8
 𣘙	bhsb	8
-狽	bwqt	8
 憊	bwtu	8
 琫	bggd	8
 玤	bggh	8
@@ -7053,14 +6985,11 @@
 夢	mgsq	8
 課	keys	8
 癜	dmuc	8
-巔	dmmf	8
 焰	yjov	8
 巩	gsay	8
 妝	vluv	8
 蚴	yzjl	8
-蚴	yzjn	8
 茉	moas	8
-泣	qiiu	8
 羈	jila	8
 羈	jilc	8
 極	jisy	8
@@ -7142,8 +7071,7 @@
 爮	pcrn	9
 伽	jxwk	9
 麂	jiyn	9
-
-#五碼單字簡碼
+#五碼單字簡碼		
 秕	bitxx	9
 踣	bokhu	9
 芣	fuagi	9
@@ -7210,8 +7138,7 @@
 侑	yzwde	9
 矢	uitdu	9
 𠀤	bkddg	9
-
-#詞組簡碼
+#詞組簡碼		
 阿兵	aabk	9
 阿炳	aabk	10
 阿富汗	aafuhj	9
@@ -7473,7 +7400,6 @@
 缽體	boti	9
 播弄	bons	9
 撥打	boda	9
-波動	bods	9
 勃然	borj	9
 撥成	boig	7
 博寧	bonk	9
@@ -9990,7 +9916,6 @@
 劇照	juvc	9
 鋸開	jukd	9
 鋸條	jutn	9
-颶風	jufg	9
 捐精	jrjk	9
 捐錢	jrqm	9
 捐腎	jruf	9
@@ -10141,7 +10066,6 @@
 快了	kkle	9
 快胃	kkww	9
 快慰	kkww	9
-蒯因	kkyb	9
 寬片	krpm	9
 匡衡	klhg	9
 狂插	klia	9
@@ -10865,7 +10789,6 @@
 那就	najq	9
 那麼	name	9
 那你	nani	10
-那篇	napm	10
 那群	naqy	10
 那人	narf	10
 那是	naui	10
@@ -10873,7 +10796,6 @@
 那位	naww	10
 那些	naxp	10
 那樣	nayh	9
-那張	navh	10
 那真	navf	9
 那種	navs	10
 納夫	nafu	9
@@ -11049,7 +10971,6 @@
 皮衣	piyi	9
 皮裝	pivl	9
 疲憊	pibw	9
-疲倦	pijr	9
 疲勞	pilc	9
 圮絕	pijt	9
 痞塊	pikk	9
@@ -11506,7 +11427,6 @@
 容忍	rsrf	9
 容易	rsyi	9
 絨蚧	rsjp	9
-榕哥	rsge	10
 榮慶	rsqk	9
 熔渣	rsva	9
 柔美	rzmw	9
@@ -12775,7 +12695,7 @@
 下港	xxgh	9
 下來	xxld	10
 下列	xxlp	9
-下令	xxlk	9
+下令	xxlk	8
 下落	xxlo	10
 下馬	xxma	9
 下木	xxmu	9
@@ -13523,7 +13443,7 @@
 異常	yiih	10
 異父	yifu	9
 異故	yigu	9
-異軍	yijy	9
+異軍	yijy	7
 異類	yilw	9
 異名	yimk	9
 異聲	yiug	9
@@ -13671,7 +13591,7 @@
 油槍	yzig	9
 油水	yzuv	9
 油松	yzss	9
-油田	yztm	9
+有天	yztm	9
 油香	yzxl	9
 油性	yzxk	9
 郵袋	yzdd	9
@@ -13743,7 +13663,6 @@
 淤斑	yubj	9
 淤沙	yuua	9
 汙濁	wuvo	9
-於光	yugl	9
 於堅	yujm	9
 於橋	yuqn	9
 於天	yutm	9
@@ -13826,7 +13745,6 @@
 預感	yugj	11
 預冷	yulg	9
 閾能	yung	9
-閾值	yuvi	9
 禦宅	yuvd	9
 禦准	yuvy	9
 冤苦	yrku	9
@@ -14101,7 +14019,6 @@
 振動	vfds	9
 振湖	vfhu	9
 振片	vfpm	9
-震懾	vfue	9
 震嶽	vfyt	9
 鎮定	vfdk	10
 鎮嚇	vfxx	9
@@ -14519,7 +14436,7 @@
 余威	yuww	7
 管家	grjx	9
 衝突	istu	9
-轉眼	vryj	9 
+轉眼	vryj	9
 恥辱	iiru	9
 主網	vuwm	9
 優美	yzmw	9
@@ -14764,3 +14681,300 @@ chatGPT	chatgpt	10
 將信將疑	jxjy	11
 訓民正音	xmvy	11
 威望	wwwh	11
+埃及人	ajrf	2
+按錯了	ancole	2
+辦公室	bgui	1
+大花面	dhmm	3
+多倫多	dldo	1
+低聲道	dud	2
+第一座	dyzo	2
+馥春茶	fii	1
+範疇論	fily	5
+古埃及	gaje	1
+工程師	giui	1
+給人家	grjx	1
+廣州人	gvrf	7
+好地方	hdfh	1
+很好聽	hht	2
+黑龍江	hljl	1
+互聯網	hlwm	1
+吹鼓手	igu	1
+朝鮮族	ixzu	7
+加拿大	jnda	2
+機器人	jqrf	2
+金字塔	jzta	2
+可以的	keyide	1
+落塵量	lill	2
+李森科	lske	1
+李思音	lsyb	1
+磨不開	mbkd	1
+明白了	mkbdle	3
+玛奇玛	mqma	1
+內蒙古	nmgu	1
+繞圈子	rjzi	1
+tab	tab	1
+探索者	tsv	1
+使用者	uiysve	3
+輸入法	uurufa	4
+十字軍	uzjy	1
+真不錯	vbco	1
+長生藥	vuyc	1
+無產者	wive	2
+我覺得	wojtde	1
+我知道	wovidc	5
+為什麼	wwufme	2
+我無語	wwy	1
+夏侯惇	xhdy	1
+新會員	xhy	1
+下廚房	xifh	1
+蟹肉湯	xrth	1
+迎春花	yihx	3
+孕激素	yjsu	2
+自治旗	zvqi	1
+自治區	zvqu	1
+自治州	zvvz	1
+自治縣	zvxm	1
+玛奇玛	mqma	
+李森科	lske	9
+不可以	bukeyi	
+你可以	nikeyi	
+一点用	yidmys	
+實際上	uijiuh	
+輸入法	uurufa	
+輸入法	urfa	
+有一個	yzyige	
+總覺得	zsjtde	
+紫水晶	ziuvjk	
+注意到	vuyidc	
+注射器	vuueqi	
+中位數	vswwuu	
+制作者	vizove	
+正中央	vgvsyh	
+正前方	vgqmfh	
+真奇怪	vfqigk	
+這時候	veuihz	
+照射下	vcuexx	
+展現出	vjxmiu	
+越來越	ytldyt	
+原產地	yrijdi	
+語境下	yujkxx	
+有什麼	yzufme	
+有人嗎	yzrfma	
+有錢人	yzqmrf	
+有可能	yzkeng	
+應當說	ykdhuo	
+嬰兒車	ykerie	
+陰森森	ybsfsf	
+伊斯蘭	yisilj	
+一條條	yitntn	
+一連串	yilmir	
+一定要	yidkyc	
+一部分	yibuff	
+懸浮着	xrfuve	
+敘利亞	xuliya	
+新金屬	xbjbuu	
+笑起來	xnqild	
+小問題	xnwfti	
+響起來	xlqild	
+先研究	xmyjjq	
+吸引力	xiybli	
+無所謂	wusoww	
+無規律	wugvlv	
+屋子裏	wuzili	
+我覺得	wojtde	
+我感覺	wogjjt	
+為什麼	wwufme	
+瓦哈比	wahabi	
+同義詞	tsyici	
+藤蔓般	tgwjbj	
+鎖住了	sovule	
+斯文人	siwfrf	
+說一句	uoyiju	
+說不准	uobuvy	
+說不出	uobuiu	
+數據流	uujulq	
+受不了	uzbuln	
+首位碼	uzwwma	
+是一個	uiyige	
+世紀初	uijiiu	
+設計師	uejiui	
+社會上	uehvuh	
+霎時間	uauijm	
+塞納河	sdnahe	
+認識你	rfuini	
+惹不起	rebuqi	
+敲了敲	qnleqn	
+強忍着	qlrfve	
+前三碼	qmsjma	
+起來了	qildle	
+歐洲人	ouvzrf	
+寧靜感	nkjkgj	
+聶正平	npvgpk	
+年輕人	nmqkrf	
+能不能	ngbung	
+門把手	mfbauz	
+馬蹄聲	matiug	
+另一層	lkyicg	
+來源於	ldyryu	
+垃圾桶	lajits	
+垃圾場	lajiih	
+恐怖片	ksbupm	
+看自己	kjziji	
+看起來	kjqild	
+卡塔爾	kataer	
+靜悄悄	jkqnqn	
+盡全力	jbqrli	
+結構性	jpgzxk	
+接下來	jpxxld	
+腳步聲	jnbuug	
+回到了	hvdcle	
+恍惚間	hlhujm	
+紅十字	hsuizi	
+很噁心	hfeexb	
+好惡心	hceexb	
+好端端	hcdrdr	
+還可以	hdkeyi	
+過路人	golurf	
+過了會	golehv	
+古希臘	guxila	
+構成了	gzigle	
+公務員	gswuyr	
+搞的鬼	gcdegv	
+高加索	gcjxso	
+浮空城	fuksig	
+房間內	fhjmnw	
+翻譯器	fjyiqi	
+俄羅斯	eelosi	
+頓了頓	dyledy	
+得到了	dedcle	
+當我是	dhwoui	
+闖入了	ilrule	
+喘息聲	irxiug	
+沉住氣	ifvuqi	
+常青藤	ihqktg	
+產生了	ijugle	
+擦了擦	caleca	
+不自覺	buzijt	
+波斯語	bosiyu	
+閉上你	biuhni	
+被建構	bwjmgz	
+伴隨着	bjsvve	
+把這個	bavege	
+按錯了	ancole	
+阿聯酋	aalmqq	
+阿拉伯	aalabo	
+阿富汗	aafuhj	
+𣴢水	zcuvi	
+𣝓弧	yjhux	
+𣝓絲	yjsix	
+栘𣐿	doyis	
+嫗𡟥	yuquv	
+第三國際	dsgj	9
+俄亥俄州	ehev	1
+吼啊吼啊	haha	1
+霍格沃茨	hgwc	4
+紅紅火火	hhhh	2
+浩瀚無涯	hhwy	2
+揮之不去	hvbq	1
+川府山珍	ifuv	1
+沉沉入睡	iiru	2
+朝四暮三	isms	1
+緝捕歸案	jbga	1
+金榜題名	jbtm	2
+軍閥割據	jfgj	1
+近攝鏡頭	jujt	1
+舉世莫比	jumb	1
+目光犀利	mgxl	1
+龐然大物	prdw	1
+請多關照	qdgv	1
+隨之而來	svel	2
+天地萬物	tdww	1
+市場情況	uiqk	1
+少惹是非	uruf	2
+熟人熟事	uruu	5
+張冠李戴	vgld	2
+主權國家	vqgj	1
+粥旺府和	vwfh	1
+微觀經濟	wgjj	1
+無產階級	wijj	1
+味同嚼蠟	wtjl	1
+小鶴五筆	xnhewubi	1
+壓花玻璃	yhbl	1
+銀川寧湘	yinx	1
+意識形態	yuxt	15
+一室一廳	yuyt	1
+蚌埠住了	bbvl	9
+人民富豪	rmfh	9
+裝模作樣	vlmozoyh	
+這個東西	vegedsxi	
+招了招手	vclevcuz	
+與世長辭	yuuiihci	
+英雄豪傑	ykxshcjp	
+銀裝素裹	ybvlsugo	
+一言一行	yiyjyixk	
+一模一樣	yimuyiyh	
+一多一雜	yidoyiza	
+一棟又一	yidsyzyi	
+也不知道	yebuvidc	
+循規蹈矩	xygvdcju	
+絮絮叨叨	xuxudcdc	
+心念一動	xbnmyids	
+小心翼翼	xnxbyiyi	
+小鶴五筆	xnhewubi	
+無限火力	wuxmholi	
+無聲無息	wuugwuxi	
+妥妥當當	ttdd	
+數據結構	uujujpgz	
+實事求是	uiuiqqui	
+生命危險	ugmkwwxm	
+賽博朋克	sdbopgke	
+人工智能	rfgsving	
+清了清嗓	qkleqksh	
+敲了敲門	qnleqnmf	
+弄不清楚	nsbuqkiu	
+喃喃自語	njnjziyu	
+莫名其妙	momkqimn	
+棱角分明	lgjnffmk	
+浪費時間	lhfwuijm	
+可以看到	keyikjdc	
+看得出來	kjdeiuld	
+借屍還魂	jpuihrhy	
+教育行業	jnyuhhye	
+毫不在意	hcbuzdyi	
+冠冕堂皇	grmmthhl	
+孤立無援	guliwuyr	
+複製粘貼	fuvivjtp	
+電子遊戲	dmziyzxi	
+猝然離世	curjliui	
+出人意料	iurfyiln	
+出乎意料	iuhuyiln	
+沉默了會	ifmolehv	
+不屑一顧	buxpyigu	
+不切實際	buqpuiji	
+安安靜靜	ananjkjk	
+豆腐渣工程	dfvi	1
+亂點鴛鴦譜	ldyp	1
+十年磨一劍	unmj	1
+只怕有心人	vpyr	1
+新疆自治區	xjzq	1
+一錘子買賣	yizm	1
+一級方程式	yjfu	1
+一問三不知	ywsv	1
+芳心縱火犯	fxzf	9
+這個意義上	vegeyiyiuh	
+違禁關鍵字	wwjkgrjmzi	
+瓦哈比主義	wahabivuyi	
+塔吉克斯坦	tajikesitj	
+敲了敲木門	qnleqnmumf	
+八竿子打不着	bgzv	2
+高不成低不就	gbij	1
+美利堅共和國	mljg	1
+熱鍋上的螞蟻	rguy	1
+人心是肉做的	rxud	2
+死馬當活馬醫	smdy	1
+收到收到收到	uzdcuzdcuzdc	
+不管三七二十一	bgsy	1
+婦女能頂半邊天	fnnt	1
+車到山前必有路	idul	1
+清官難斷家務事	qgnu	1
+中華人民共和國	vhrg	1
