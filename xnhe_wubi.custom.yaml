@@ -1,8 +1,8 @@
 patch:
-  __include: grammar:/hant
+  __include: grammar:/hans
   __include: easy_en:/patch
   easy_en/enable_sentence: false
-  easy_en/initial_quality: 0.1
+  easy_en/initial_quality: 0.4
 
 #扩充符号
   punctuator/import_preset: default_symbols #設定符號表，這裏直接導入預設的

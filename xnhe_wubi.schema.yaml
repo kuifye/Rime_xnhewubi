@@ -69,8 +69,8 @@ speller:
   alphabet: 'abcdefghijklmnopqrstuvwxyz'
   delimiter: " `"
   # auto_select: true
-  auto_code: 0                   #n码自动上屏，如需关闭请输入0
-  length_limit: 99
+  # auto_code: 0                   #n码自动上屏，如需关闭请输入0
+  # length_limit: 99
   # max_code_length: 5
   algebra:
 #小鹤五笔快捷编码
@@ -238,6 +238,6 @@ recognizer:
 
 grammar:
   language:
-    zh-hant-t-essay-bgc
-  collocation_max_length: 2
-  collocation_min_length: 2
+    zh-hant-t-essay-bgw
+  collocation_max_length: 7
+  collocation_min_length: 7
