@@ -83,6 +83,8 @@ speller:
     - xform/in$/B/
     - xlit/QWRTYUIOPSDFGHJKLZXCVBNM/qwrtyuiopsdfghjklzxcvbnm/
     - abbrev/^(.).+$/$1/
+    - derive/uu/us/
+    - derive/ii/it/
 
 translator:
   dictionary: luna_pinyin
