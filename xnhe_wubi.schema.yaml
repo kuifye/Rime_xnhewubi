@@ -87,12 +87,14 @@ speller:
     - xform/[[]//
     - xform/;//
     - abbrev/^(.).+$/$1/
+    - derive/uu/us/
+    - derive/ii/it/
 
 key_binder:
   import_preset: default
   bindings:
     - { when: has_menu, accept: semicolon, send: 2 }            # 第2候选键(;)
-    - { when: has_menu, accept: apostrophe, send: 3 }           # 第3候选键(')
+    - { when: has_menu, accept: apostrophe, send: 4 }           # 第4候选键(')
     - { when: has_menu, accept: "Tab", send: 3}                 # 第3候选键(tab)
     - { when: always, accept: "Control+j", toggle: simplification } #切换简繁
     - { when: composing, accept: "-", send: Page_Up}
@@ -105,8 +107,6 @@ translator:                      #小鹤字词翻译器
   enable_charset_filter: true    #字符集过滤，低重形码用不着
   initial_quality: 1
   contextual_suggestions: true
-  max_homophones: 7
-  max_homographs: 7
 
 luna_pinyin:
   dictionary: luna_pinyin
@@ -114,8 +114,6 @@ luna_pinyin:
   prism: double_pinyin_flypy
   initial_quality: 0.9
   contextual_suggestions: true
-  max_homophones: 7
-  max_homographs: 7
 
 # abc_segmentor:
 #   extra_tags:
