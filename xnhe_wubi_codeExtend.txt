@@ -34,7 +34,6 @@
 仕	uw	20
 子	zb	20
 既	jv	20
-和	ht	20
 妹	mv	20
 阿	ab	20
 哀	ay	20
@@ -276,7 +275,8 @@ ap	ap
 卡賓	kb
 卡車	ki
 科目	km
-知識	vu
+知識	vu	5
+只是	vu	6
 可能	kn	6
 客氣	kq
 課堂	kt
@@ -306,6 +306,7 @@ ap	ap
 左人	zr
 右人	yr
 厲害	lh
+就是	ju	6
 男人	nr	6
 女人	nr	5
 浪費	lf	7
@@ -42811,7 +42812,6 @@ rip	rip	6
 可延長	kyi	6
 卡哇伊	kwy	6
 卡通版	ktb	6
-借	js	6
 記者團	jvt	6
 化膿性	hnx	6
 琥珀色	hps	6
@@ -54286,7 +54286,7 @@ apt	apt	6
 只此	vic	3
 只發	vif	3
 只花	vih	3
-只是	viu	3
+知識	viu	4
 只在	viz	3
 中不	vsb	3
 中出	vsi	3

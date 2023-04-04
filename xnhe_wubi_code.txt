@@ -11763,6 +11763,7 @@
 聖芭	ugba	9
 聖塔	ugta	9
 聖壇	ugtj	9
+等下	dgxx	9
 失分	uiff	9
 失控	uiks	10
 失能	uing	9
